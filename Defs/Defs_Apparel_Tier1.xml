@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<!-- Tier 1 Helemt -->
+
+  <ThingDef  Name="Tier1_Helmet" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+		<description>"Early on, Soldiers do not take on a distinctive appearance. They look similar to that of Old Earth military and still carry large visible oxygen tanks."</description>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>		
+	<graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+		<WorkToMake>4000</WorkToMake>
+		<MaxHitPoints>110</MaxHitPoints>
+		<Mass>.80</Mass>
+		<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.75</ArmorRating_Heat>
+		<Insulation_Cold>5</Insulation_Cold>
+		<Insulation_Heat>3</Insulation_Heat>
+		<EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<ToxicSensitivity>-0.80</ToxicSensitivity>
+		<ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+	</equippedStatOffsets>
+    <costList>
+		<Steel>20</Steel>
+		<Gold>2</Gold>
+		<Cloth>10</Cloth>
+		<ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		<researchPrerequisite>FlakArmor</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>TableMachining</li>
+        </recipeUsers>
+    </recipeMaker>
+    <apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<tags>
+			<li>EVA</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Soldier</li>
+		</defaultOutfitTags>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<thingCategories Inherit="False">
+		<li>Headgear</li>
+	</thingCategories>
+  </ThingDef>
+
+		<!-- Tier 1 Armor -->
+
+  <ThingDef Name="Tier1_Armor" ParentName="ApparelMakeableBase" Abstract="True">
+		<description>"A spacesuit is a garment worn to keep a human alive in the harsh environment of outer space, vacuum and temperature extremes. Space suits are often worn inside spacecraft as a safety precaution in case of loss of cabin pressure."</description>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+	<graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+		<WorkToMake>10000</WorkToMake>
+		<MaxHitPoints>280</MaxHitPoints>
+		<Mass>8.5</Mass>
+		<ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.74</ArmorRating_Heat>
+		<Insulation_Cold>10.5</Insulation_Cold>
+		<Insulation_Heat>10.5</Insulation_Heat>
+		<EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<ToxicSensitivity>-0.30</ToxicSensitivity>	
+		<PainShockThreshold>0.15</PainShockThreshold>
+		<SocialImpact>0.05</SocialImpact>		
+	</equippedStatOffsets>
+    <costList>
+		<Steel>20</Steel>
+		<Cloth>30</Cloth>
+		<ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		<researchPrerequisite>FlakArmor</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>TableMachining</li>
+        </recipeUsers>
+    </recipeMaker>
+    <apparel>
+		<bodyPartGroups>
+			<li>Neck</li>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Waist</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<tags>
+			<li>EVA</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Soldier</li>
+		</defaultOutfitTags>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+	</apparel>
+	<thingCategories Inherit="False">
+		<li>Apparel</li>
+	</thingCategories>
+  </ThingDef>
+
+		<!-- Tier 1 Gun -->
+
+ <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Tier1_Carbine_Soldier</defName>
+    <label>Tier 1 Soldier Carbine</label>
+    <description>"A Weapon From the old World".</description>
+    <graphicData>
+      <texPath>Things/Tier1_Items/Carbine_Tier1_Soldier</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.0</Mass>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.38</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>78</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>22.9</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Tier1_SMG_Gun_Sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>Tier1Weapon</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_HeavySMG</defName>
+    <label>heavy SMG bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+
+		<!-- Colored Helmet -->
+
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Red_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Red)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Items/Helmet_Tier1_Soldier_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Items/Helmet_Tier1_Soldier</wornGraphicPath>
+    </apparel>	
+  </ThingDef>
+  
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Green_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Green)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Green/Tier1_Helmet_Soldier_Green_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Green/Tier1_Helmet_Soldier_Green</wornGraphicPath>
+    </apparel>	
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Blue_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Blue)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Blue/Tier1_Helmet_Soldier_Blue_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Blue/Tier1_Helmet_Soldier_Blue</wornGraphicPath>
+    </apparel>	
+  </ThingDef>  
+  
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Orange_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Orange)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Orange/Tier1_Helmet_Soldier_Orange_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Orange/Tier1_Helmet_Soldier_Orange</wornGraphicPath>
+    </apparel>	
+  </ThingDef>    
+
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Yellow_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Yellow)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Yellow/Tier1_Helmet_Soldier_Yellow_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Yellow/Tier1_Helmet_Soldier_Yellow</wornGraphicPath>
+    </apparel>	
+  </ThingDef>    
+
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Purple_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Purple)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Purple/Tier1_Helmet_Soldier_Purple_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Purple/Tier1_Helmet_Soldier_Purple</wornGraphicPath>
+    </apparel>	
+  </ThingDef>    
+
+		<!-- Colored Armor -->
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Red_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Red)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Items/Armor_Tier1_Soldier_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Items/Armor_Tier1_Soldier</wornGraphicPath>
+    </apparel>	
+  </ThingDef>
+ 
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Green_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Green)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Green/Tier1_Armor_Soldier_Green_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Green/Tier1_Armor_Soldier_Green</wornGraphicPath>
+    </apparel>	
+  </ThingDef> 
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Blue_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Blue)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Blue/Tier1_Armor_Soldier_Blue_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Blue/Tier1_Armor_Soldier_Blue</wornGraphicPath>
+    </apparel>	
+  </ThingDef> 
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Orange_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Orange)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Orange/Tier1_Armor_Soldier_Orange_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Orange/Tier1_Armor_Soldier_Orange</wornGraphicPath>
+    </apparel>	
+  </ThingDef> 
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Yellow_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Yellow)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Yellow/Tier1_Armor_Soldier_Yellow_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Yellow/Tier1_Armor_Soldier_Yellow</wornGraphicPath>
+    </apparel>	
+  </ThingDef> 
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Purple_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Purple)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Purple/Tier1_Armor_Soldier_Purple_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Purple/Tier1_Armor_Soldier_Purple</wornGraphicPath>
+    </apparel>	
+  </ThingDef> 
+
+</Defs>

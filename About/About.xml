@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+		<name>Civilization Beyond Earth Armor Sets</name>
+		<author>JangoD'soul,ParaNautic(chrissmooth25)</author> <!-- \\\ Change to your username for Steam \\\ -->
+		<supportedVersions>
+			<li>1.2</li> 	<!-- \\\ your can add more line when the new version for the game\\\ -->		
+		</supportedVersions>
+		<packageId>JangoDsoul.TierArmor.Civil</packageId>	<!-- \\\ Can change to anything \\\ -->
+		<description>
+This mod adds Civilization Beyond Earth armor From the Soldier Tree
+
+[h1]Features:[/h1]
+ - Tier 1 Soldier Helemet
+ - Tier 1 Soldier Armor Suit
+ - Tier 1 Soldier Carbine
+ - Helemt and Suit in 6 difference colors : Red,Blue,Green,Purple,Orange,Yellow.
+ 
+[h1]ResearchPrerequisite:[/h1]
+ - GasOperation: Soldier Carbine
+ - FlakArmor: Soldier Helemet and Suits
+ 
+Commissioned by "JangoD'soul" for "ParaNautic(chrissmooth25)#7464" from "Rimworld Mod Market" Discord.
+
+[h1]Credits:[/h1]
+-Civilization Beyond Earth
+-JangoDsoul- Art and XML coder
+
+[url=https://discord.gg/7B7xqHh][img]https://i.imgur.com/cfoFEMA.png[/img][/url]
+		</description>
+	</ModMetaData>
