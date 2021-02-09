@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<!-- Camo Helmet -->
+
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Desert_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Desert)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Desert_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Desert</wornGraphicPath>
+    </apparel>	
+  </ThingDef>
+  
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Navy_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Navy)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Navy_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Navy</wornGraphicPath>
+    </apparel>	
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Stealth_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Stealth)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Stealth_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Stealth</wornGraphicPath>
+    </apparel>	
+  </ThingDef>  
+  
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Winter_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Winter)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Winter_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Winter</wornGraphicPath>
+    </apparel>	
+  </ThingDef>    
+
+  <ThingDef ParentName="Tier1_Helmet">
+	<defName>Tier1_Woodland_Helmet_Soldier</defName>
+	<label>Tier 1 Soldier Helmet(Woodland)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Woodland_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier1_Camo/Tier1_Helmet_Soldier_Woodland</wornGraphicPath>
+    </apparel>	
+  </ThingDef>    
+ 
+
+		<!-- Camo Armor -->
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Desert_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Desert)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Desert_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Desert</wornGraphicPath>
+    </apparel>	
+  </ThingDef>
+ 
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Navy_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Navy)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Navy_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Navy</wornGraphicPath>
+    </apparel>	
+  </ThingDef> 
+
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Stealth_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Stealth)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Stealth_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Stealth</wornGraphicPath>
+    </apparel>	
+  </ThingDef>
+  
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Winter_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Winter)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Winter_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Winter</wornGraphicPath>
+    </apparel>	
+  </ThingDef>
+
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Woodland_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Woodland)</label>
+	<graphicData>
+      <texPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Woodland_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Camo/Tier1_Armor_Soldier_Woodland</wornGraphicPath>
+    </apparel>	
+  </ThingDef>
+  
+</Defs>

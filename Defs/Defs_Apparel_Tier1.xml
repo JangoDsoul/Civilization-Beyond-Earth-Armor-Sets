@@ -166,7 +166,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+        <defaultProjectile>Bullet_HeavySMG</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>22.9</range>
         <burstShotCount>4</burstShotCount>
