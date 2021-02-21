@@ -18,8 +18,8 @@
       <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
       <ArmorRating_Heat>0.54</ArmorRating_Heat>
-      <Insulation_Cold>7</Insulation_Cold>
-      <Insulation_Heat>5</Insulation_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>4</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -77,8 +77,8 @@
       <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
       <ArmorRating_Heat>0.62</ArmorRating_Heat>
-      <Insulation_Cold>34</Insulation_Cold>
-      <Insulation_Heat>15</Insulation_Heat>
+      <Insulation_Cold>50</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
       <EquipDelay>14</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -207,6 +207,21 @@
       <speed>120</speed>
     </projectile>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Purity</defName>
+    <label>Purity bullet</label>
+    <graphicData>
+      <texPath>Things/Tier3_Purity/Tier3_Purity_Bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>		  
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>  
 
 		<!--  Tier 3 Harmony Set -->
 
@@ -228,7 +243,7 @@
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Harmony_Armor</defName>
-	  <label>Tier3 Harmony Armor</label>
+	  <label>Tier 3 Harmony Armor</label>
 	  <description>"A style which uses many curves, various shades of green, and art which alludes to biological organs and natural features."</description>		  
 	<graphicData>
       <texPath>Things/Tier3_Harmony/Tier3_Harmony_Armor_UI</texPath>
@@ -244,7 +259,7 @@
 
   <ThingDef ParentName="Tier3_Weapon">
 	  <defName>Tier3_Harmony_Gun</defName>
-	  <label>Tier3 Harmony Weapon</label>
+	  <label>Tier 3 Harmony Weapon</label>
 	  <description>"Harmony appear to make heavy use of poison-like substances in their munitions, likely militarized variants of the chemically degrading biological clouds of fungal spores dubbed Miasma by the colonists, only of course on a far more concentrated and magnified scale."</description>		  
 	<graphicData>
       <texPath>Things/Tier3_Harmony/Harmony_weapon</texPath>
@@ -279,7 +294,7 @@
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Supremacy_Helmet</defName>
-	<label>Tier3 Supremacy Helmet</label>
+	<label>Tier 3 Supremacy Helmet</label>
 	<description>"Supremacy,focus on improving technology and improving themselves with cybernetics in order to be able to survive the harshest of environments on the new planet regardless of outside conditions."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Helmet_UI</texPath>
@@ -291,7 +306,7 @@
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Supremacy_Armor</defName>
-	  <label>Tier3 Supremacy Armor</label>
+	  <label>Tier 3 Supremacy Armor</label>
 	<description>"Supremacy are the most machine-like of the three Affinities. They develop sophisticated AI, make widespread use of autonomous and semi-autonomous robotic systems, and in general go the way of bionics, augmentation and merging human and machine."</description>		  
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Armor_UI</texPath>
@@ -306,7 +321,7 @@
 
   <ThingDef ParentName="Tier3_Weapon">
 	  <defName>Tier3_Supremacy_Gun</defName>
-	  <label>Tier3 Supremacy Weapon</label>
+	  <label>Tier 3 Supremacy Weapon</label>
 	<description>"Supremacy weapons appear fire- and explosive-based, with yellow and orange colors which give the impression of superheated blast shells."</description>		  	  
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Supremacy_weapon</texPath>
@@ -331,6 +346,65 @@
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Tier3_Supremacy_Rifle_Sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>	
+  </ThingDef>
+
+		<!-- Tier 3 Purity Set -->
+
+  <ThingDef ParentName="Tier3_Helmet">
+	<defName>Tier3_Purity_Helmet</defName>
+	<label>Tier 3 Purity Helmet(Red)</label>
+	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<graphicData>
+      <texPath>Things/Tier3_Purity/Tier3_Purity_Hetmet_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Hetmet</wornGraphicPath>
+    </apparel>	
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier3_Armor">
+	  <defName>Tier3_Purity_Armor</defName>
+	  <label>Tier 3 Purity Armor(Red)</label>
+	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
+	<graphicData>
+      <texPath>Things/Tier3_Purity/Tier3_Purity_Armor_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Armor</wornGraphicPath>
+    </apparel>	
+  </ThingDef> 
+
+  <ThingDef ParentName="Tier3_Weapon">
+	  <defName>Tier3_Purity_Gun</defName>
+	  <label>Tier 3 Purity Weapon</label>
+	<description>"Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles."</description>		  	  
+	<graphicData>
+      <texPath>Things/Tier3_Purity/Tier3_Purity_Weapon</texPath>
+	  <drawSize>1.0</drawSize>   
+    </graphicData>	
+    <statBases>
+      <WorkToMake>45000</WorkToMake>	
+      <Mass>8</Mass>
+      <AccuracyTouch>0.87</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+    </statBases>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Purity</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>27.5</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>Tier3_Purity_Rifle_Sound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
