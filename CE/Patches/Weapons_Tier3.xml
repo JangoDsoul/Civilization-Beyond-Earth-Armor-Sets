@@ -61,7 +61,7 @@
 						<recoilAmount>1.20</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 						<hasStandardCommand>true</hasStandardCommand>
-						<defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
+						<defaultProjectile>Bullet_HarmonyCharged</defaultProjectile>
 						<warmupTime>1.1</warmupTime>
 						<range>58</range>
 						<burstShotCount>6</burstShotCount>
@@ -73,7 +73,7 @@
 					<AmmoUser>
 						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_6x24mmCharged</ammoSet>
+						<ammoSet>AmmoSet_HarmonyCharged</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -82,12 +82,12 @@
 					</FireModes>
 					<weaponTags>
 						<li>CE_AI_Rifle</li>
-					</weaponTags>			
+					</weaponTags>
 				</li>
 
 				<!--===== Tier3_Supremacy_Gun =====-->
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-					<defName>Tier3_Supremacy_Gun</defName>					
+					<defName>Tier3_Supremacy_Gun</defName>
 					<statBases>
 						<Mass>3.26</Mass>
 						<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
@@ -100,7 +100,7 @@
 						<recoilAmount>1.20</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 						<hasStandardCommand>true</hasStandardCommand>
-						<defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
+						<defaultProjectile>Bullet_SupremacyCharged</defaultProjectile>
 						<warmupTime>1.1</warmupTime>
 						<range>58</range>
 						<burstShotCount>6</burstShotCount>
@@ -112,7 +112,7 @@
 					<AmmoUser>
 						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_6x24mmCharged</ammoSet>
+						<ammoSet>AmmoSet_SupremacyCharged</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -121,12 +121,12 @@
 					</FireModes>
 					<weaponTags>
 						<li>CE_AI_Rifle</li>
-					</weaponTags>			
+					</weaponTags>
 				</li>
 
 				<!--===== Tier3_Purity_Gun =====-->
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-					<defName>Tier3_Purity_Gun</defName>					
+					<defName>Tier3_Purity_Gun</defName>
 					<statBases>
 						<Mass>3.26</Mass>
 						<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
@@ -139,7 +139,7 @@
 						<recoilAmount>1.20</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 						<hasStandardCommand>true</hasStandardCommand>
-						<defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
+						<defaultProjectile>Bullet_PurityCharged</defaultProjectile>
 						<warmupTime>1.1</warmupTime>
 						<range>58</range>
 						<burstShotCount>6</burstShotCount>
@@ -151,7 +151,7 @@
 					<AmmoUser>
 						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_6x24mmCharged</ammoSet>
+						<ammoSet>AmmoSet_PurityCharged</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -160,7 +160,7 @@
 					</FireModes>
 					<weaponTags>
 						<li>CE_AI_Rifle</li>
-					</weaponTags>			
+					</weaponTags>
 				</li>
 			</operations>
 		</match>
