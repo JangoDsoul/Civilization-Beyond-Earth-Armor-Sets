@@ -13,6 +13,9 @@
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Blue/Tier3_Purity_Helmet_Blue</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
   <ThingDef ParentName="Tier3_Helmet">
@@ -25,6 +28,9 @@
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Green/Tier3_Purity_Helmet_Green</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
   <ThingDef ParentName="Tier3_Helmet">
@@ -36,7 +42,10 @@
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Orange/Tier3_Purity_Helmet_Orange</wornGraphicPath>
-    </apparel>	
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
   <ThingDef ParentName="Tier3_Helmet">
@@ -49,6 +58,9 @@
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Purple/Tier3_Purity_Helmet_Purple</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
   
   <ThingDef ParentName="Tier3_Helmet">
@@ -61,6 +73,9 @@
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Yellow/Tier3_Purity_Helmet_Yellow</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
 		<!-- Color Armor -->
@@ -75,6 +90,9 @@
     <apparel>
 		<wornGraphicPath>Things/Tier3_Blue/Tier3_Purity_Armor_Blue</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
  
   <ThingDef ParentName="Tier3_Armor">
@@ -87,6 +105,9 @@
     <apparel>
 		<wornGraphicPath>Things/Tier3_Green/Tier3_Purity_Armor_Green</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>  
   
   <ThingDef ParentName="Tier3_Armor">
@@ -99,6 +120,9 @@
     <apparel>
 		<wornGraphicPath>Things/Tier3_Orange/Tier3_Purity_Armor_Orange</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>    
   
   <ThingDef ParentName="Tier3_Armor">
@@ -111,6 +135,9 @@
     <apparel>
 		<wornGraphicPath>Things/Tier3_Purple/Tier3_Purity_Armor_Purple</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>      
   
   <ThingDef ParentName="Tier3_Armor">
@@ -123,6 +150,9 @@
     <apparel>
 		<wornGraphicPath>Things/Tier3_Yellow/Tier3_Purity_Armor_Yellow</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3PurityColor</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>     
   
 </Defs>

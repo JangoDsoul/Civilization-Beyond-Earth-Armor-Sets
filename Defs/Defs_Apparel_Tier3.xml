@@ -32,7 +32,6 @@
 		<ComponentSpacer>1</ComponentSpacer>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Fabrication</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -93,7 +92,6 @@
 		<ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Fabrication</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -135,7 +133,6 @@
     </graphicData>
     <soundInteract>Interact_ChargeLance</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>Fabrication</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -238,7 +235,10 @@
     <equippedStatOffsets>
       <MedicalTendSpeed>0.30</MedicalTendSpeed>
 	   <MedicalTendQuality>0.20</MedicalTendQuality>
-    </equippedStatOffsets>			
+    </equippedStatOffsets>		
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
   <ThingDef ParentName="Tier3_Armor">
@@ -255,6 +255,9 @@
       <MedicalTendSpeed>0.20</MedicalTendSpeed>
 	   <MedicalTendQuality>0.30</MedicalTendQuality>
     </equippedStatOffsets>		
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
   <ThingDef ParentName="Tier3_Weapon">
@@ -288,6 +291,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
 		<!-- Tier 3 Supremacy Set -->
@@ -302,6 +308,9 @@
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Supremacy/Tier3_Supremacy_Helmet</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>  
 
   <ThingDef ParentName="Tier3_Armor">
@@ -317,6 +326,9 @@
     <equippedStatOffsets>
       <MoveSpeed>0.45</MoveSpeed>
     </equippedStatOffsets>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef> 
 
   <ThingDef ParentName="Tier3_Weapon">
@@ -350,6 +362,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
 		<!-- Tier 3 Purity Set -->
@@ -364,6 +379,9 @@
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Hetmet</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>  
 
   <ThingDef ParentName="Tier3_Armor">
@@ -376,6 +394,9 @@
     <apparel>
 		<wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Armor</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef> 
 
   <ThingDef ParentName="Tier3_Weapon">
@@ -409,6 +430,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
 
 </Defs>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<!-- ==== Tier Helemt Base ==== -->
+
+  <ThingDef  Name="Tier2_Helmet" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>		
+	<graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>4500</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<ToxicSensitivity>-0.80</ToxicSensitivity>
+	</equippedStatOffsets>
+    <costList>
+		<Steel>60</Steel>
+		<Gold>2</Gold>
+		<Cloth>5</Cloth>
+		<ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+		<li>FabricationBench</li>
+      </recipeUsers>	  
+    </recipeMaker>
+    <apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<tags>
+			<li>EVA</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Soldier</li>
+		</defaultOutfitTags>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<thingCategories Inherit="False">
+		<li>Headgear</li>
+	</thingCategories>
+  </ThingDef>
+
+		<!-- Tier Armor Base -->
+
+  <ThingDef Name="Tier2_Armor" ParentName="ApparelMakeableBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+	<graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <MaxHitPoints>340</MaxHitPoints>
+      <Mass>12</Mass>
+      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.80</ArmorRating_Heat>
+      <Insulation_Cold>20</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+		<ToxicSensitivity>-0.30</ToxicSensitivity>	
+		<PainShockThreshold>0.15</PainShockThreshold>
+		<SocialImpact>0.05</SocialImpact>		
+	</equippedStatOffsets>
+    <costList>
+		<Steel>45</Steel>
+		<Cloth>10</Cloth>
+		<Plasteel>5</Plasteel>		
+		<ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+		<li>FabricationBench</li>
+      </recipeUsers>	  
+    </recipeMaker>
+    <apparel>
+		<bodyPartGroups>
+			<li>Neck</li>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Waist</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<tags>
+			<li>EVA</li>
+		</tags>
+		<defaultOutfitTags>
+			<li>Soldier</li>
+		</defaultOutfitTags>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+	</apparel>
+	<thingCategories Inherit="False">
+		<li>Apparel</li>
+	</thingCategories>
+  </ThingDef>
+
+		<!-- Tier 3 Gun Base -->
+
+ <ThingDef Name="Tier2_Weapon" ParentName="BaseHumanMakeableGun" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeLance</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2Soldier</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+		<li>FabricationBench</li>
+      </recipeUsers>	  
+    </recipeMaker>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <costList>
+      <Steel>90</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>Tier3Weapon</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li> 
+    </tools>
+	<comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>	
+  </ThingDef>
+  
+		<!-- Tier 2 Soldier Set -->
+
+  <ThingDef ParentName="Tier2_Helmet">
+	<defName>Tier2_Soldier_Helmet</defName>
+	<label>Tier 2 Soldier Helmet</label>
+	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Tier2_Soldier_Helmet_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier2_Soldier/Tier2_Soldier_Helmet</wornGraphicPath>
+    </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2Soldier</researchPrerequisite>	  
+    </recipeMaker>	
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier2_Armor">
+	  <defName>Tier2_Soldier_Armor</defName>
+	  <label>Tier 2 Soldier Armor</label>
+	<description>"Soldier aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Soldier depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Tier2_Soldier_Armor_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier2_Soldier/Tier2_Soldier_Armor</wornGraphicPath>
+    </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2Soldier</researchPrerequisite>	  
+    </recipeMaker>		
+  </ThingDef> 
+
+  <ThingDef ParentName="Tier2_Weapon">
+	  <defName>Tier2_Soldier_Gun</defName>
+	  <label>Tier 2 Soldier Weapon</label>
+	<description>"Soldier military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles."</description>		  	  
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Tier2_Soldier_Weapon</texPath>
+	  <drawSize>1.0</drawSize>   
+    </graphicData>	
+    <statBases>
+      <WorkToMake>45000</WorkToMake>	
+      <Mass>8</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.68</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_HeavySMG</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>20.5</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>Tier3_Purity_Rifle_Sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>	
+  </ThingDef>
+
+	<!-- Color Armor -->
+
+  <ThingDef ParentName="Tier2_Helmet">
+	<defName>Tier2_Blue_Soldier_Armor</defName>
+	<label>Tier 2 Soldier Armor(Blue)</label>
+	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Blue_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Blue</wornGraphicPath>
+    </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2SoldierColor</researchPrerequisite>	  
+    </recipeMaker>		
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier2_Helmet">
+	<defName>Tier2_Green_Soldier_Armor</defName>
+	<label>Tier 2 Soldier Armor(Green)</label>
+	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Green_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Green</wornGraphicPath>
+    </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2SoldierColor</researchPrerequisite>	  
+    </recipeMaker>		
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier2_Helmet">
+	<defName>Tier2_Orange_Soldier_Armor</defName>
+	<label>Tier 2 Soldier Armor(Orange)</label>
+	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Orange_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Orange</wornGraphicPath>
+    </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2SoldierColor</researchPrerequisite>	  
+    </recipeMaker>		
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier2_Helmet">
+	<defName>Tier2_Purple_Soldier_Armor</defName>
+	<label>Tier 2 Soldier Armor(Purple)</label>
+	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Purple_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Purple</wornGraphicPath>
+    </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2SoldierColor</researchPrerequisite>	  
+    </recipeMaker>		
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier2_Helmet">
+	<defName>Tier2_Red_Soldier_Armor</defName>
+	<label>Tier 2 Soldier Armor(Red)</label>
+	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Red_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Red</wornGraphicPath>
+    </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2SoldierColor</researchPrerequisite>	  
+    </recipeMaker>		
+  </ThingDef>  
+
+  <ThingDef ParentName="Tier2_Helmet">
+	<defName>Tier2_Yellow_Soldier_Armor</defName>
+	<label>Tier 2 Soldier Armor(Yellow)</label>
+	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<graphicData>
+      <texPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Yellow_UI</texPath>
+    </graphicData>
+    <apparel>
+	  <wornGraphicPath>Things/Tier2_Soldier/Color/Tier2_Soldier_Armor_Yellow</wornGraphicPath>
+    </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier2SoldierColor</researchPrerequisite>	  
+    </recipeMaker>		
+  </ThingDef>  
+
+
+</Defs>

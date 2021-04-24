@@ -35,7 +35,6 @@
     </costList>
     <recipeMaker>
 		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-		<researchPrerequisite>FlakArmor</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>7</Crafting>
 		</skillRequirements>
@@ -97,7 +96,6 @@
     </costList>
     <recipeMaker>
 		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-		<researchPrerequisite>FlakArmor</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>7</Crafting>
 		</skillRequirements>
@@ -143,7 +141,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <researchPrerequisite>CBEAStart</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -224,61 +222,79 @@
     <apparel>
 	  <wornGraphicPath>Things/Tier1_Items/Helmet_Tier1_Soldier</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEAStart</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
   
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Green_Helmet_Soldier</defName>
 	<label>Tier 1 Soldier Helmet(Green)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Green/Tier1_Helmet_Soldier_Green_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Green_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier1_Green/Tier1_Helmet_Soldier_Green</wornGraphicPath>
+	  <wornGraphicPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Green</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>  
 
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Blue_Helmet_Soldier</defName>
 	<label>Tier 1 Soldier Helmet(Blue)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Blue/Tier1_Helmet_Soldier_Blue_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Blue_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier1_Blue/Tier1_Helmet_Soldier_Blue</wornGraphicPath>
+	  <wornGraphicPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Blue</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>  
   
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Orange_Helmet_Soldier</defName>
 	<label>Tier 1 Soldier Helmet(Orange)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Orange/Tier1_Helmet_Soldier_Orange_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Orange_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier1_Orange/Tier1_Helmet_Soldier_Orange</wornGraphicPath>
+	  <wornGraphicPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Orange</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>    
 
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Yellow_Helmet_Soldier</defName>
 	<label>Tier 1 Soldier Helmet(Yellow)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Yellow/Tier1_Helmet_Soldier_Yellow_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Yellow_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier1_Yellow/Tier1_Helmet_Soldier_Yellow</wornGraphicPath>
+	  <wornGraphicPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Yellow</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>    
 
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Purple_Helmet_Soldier</defName>
 	<label>Tier 1 Soldier Helmet(Purple)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Purple/Tier1_Helmet_Soldier_Purple_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Purple_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier1_Purple/Tier1_Helmet_Soldier_Purple</wornGraphicPath>
+	  <wornGraphicPath>Things/Tier1_Items/Color/Tier1_Helmet_Soldier_Purple</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>    
 
 		<!-- Colored Armor -->
@@ -292,61 +308,79 @@
     <apparel>
 		<wornGraphicPath>Things/Tier1_Items/Armor_Tier1_Soldier</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEAStart</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef>
  
   <ThingDef ParentName="Tier1_Armor">
 	  <defName>Tier1_Green_Armor_Soldier</defName>
 	  <label>Tier 1 Soldier Suit(Green)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Green/Tier1_Armor_Soldier_Green_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Green_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier1_Green/Tier1_Armor_Soldier_Green</wornGraphicPath>
+		<wornGraphicPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Green</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef> 
 
   <ThingDef ParentName="Tier1_Armor">
 	  <defName>Tier1_Blue_Armor_Soldier</defName>
 	  <label>Tier 1 Soldier Suit(Blue)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Blue/Tier1_Armor_Soldier_Blue_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Blue_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier1_Blue/Tier1_Armor_Soldier_Blue</wornGraphicPath>
+		<wornGraphicPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Blue</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef> 
 
   <ThingDef ParentName="Tier1_Armor">
 	  <defName>Tier1_Orange_Armor_Soldier</defName>
 	  <label>Tier 1 Soldier Suit(Orange)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Orange/Tier1_Armor_Soldier_Orange_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Orange_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier1_Orange/Tier1_Armor_Soldier_Orange</wornGraphicPath>
+		<wornGraphicPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Orange</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef> 
 
   <ThingDef ParentName="Tier1_Armor">
 	  <defName>Tier1_Yellow_Armor_Soldier</defName>
 	  <label>Tier 1 Soldier Suit(Yellow)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Yellow/Tier1_Armor_Soldier_Yellow_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Yellow_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier1_Yellow/Tier1_Armor_Soldier_Yellow</wornGraphicPath>
+		<wornGraphicPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Yellow</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef> 
 
   <ThingDef ParentName="Tier1_Armor">
 	  <defName>Tier1_Purple_Armor_Soldier</defName>
 	  <label>Tier 1 Soldier Suit(Purple)</label>
 	<graphicData>
-      <texPath>Things/Tier1_Purple/Tier1_Armor_Soldier_Purple_UI</texPath>
+      <texPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Purple_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier1_Purple/Tier1_Armor_Soldier_Purple</wornGraphicPath>
+		<wornGraphicPath>Things/Tier1_Items/Color/Tier1_Armor_Soldier_Purple</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Color</researchPrerequisite>	  
+    </recipeMaker>		
   </ThingDef> 
 
 </Defs>

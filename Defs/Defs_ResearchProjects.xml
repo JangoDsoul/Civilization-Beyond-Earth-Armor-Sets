@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>CBEAStab</defName>
+		<label>Civilzation Beyond Earth</label>
+	</ResearchTabDef>
+
+	<!--============== Manual ==============-->
+
+
+	<!-- \\\\ Tier 1 \\\\ -->
+  <ResearchProjectDef>
+    <defName>CBEAStart</defName>
+    <label>Tier 1 Soldier</label>
+    <description>Baic Armor Set</description>
+	<baseCost>1500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.05</researchViewY>
+	<prerequisites>
+		<li>FlakArmor</li>
+	</prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>CBEATier1Color</defName>
+    <label>Tier 1 Soldier (Color)</label>
+    <description>Baic Armor Set with more Colors</description>
+	<baseCost>500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.95</researchViewY>
+	<prerequisites>
+		<li>CBEAStart</li>
+	</prerequisites>
+  </ResearchProjectDef>  
+  
+  <ResearchProjectDef>
+    <defName>CBEATier1Camo</defName>
+    <label>Tier 1 Soldier (Camo)</label>
+    <description>Baic Armor Set with more Camos</description>
+	<baseCost>500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+	<prerequisites>
+		<li>CBEAStart</li>
+	</prerequisites>
+  </ResearchProjectDef>    
+
+	<!-- \\\\ Tier 2 \\\\ -->
+  <ResearchProjectDef>
+    <defName>CBEATier2Soldier</defName>
+    <label>Tier 2 Soldier</label>
+    <description>Better then Tier 1 Armor set</description>
+    <baseCost>3500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.05</researchViewY>
+	<prerequisites>
+		<li>CBEAStart</li>
+		<li>MicroelectronicsBasics</li>		
+	</prerequisites>
+ </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBEATier2SoldierColor</defName>
+    <label>Tier 2 Soldier (Color)</label>
+    <description>Better then Tier 1 Armor set but more Colors</description>
+    <baseCost>500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+	<prerequisites>
+		<li>CBEATier2Soldier</li>
+	</prerequisites>
+ </ResearchProjectDef>
+
+	<!-- \\\\ Tier 3 \\\\ -->
+  <ResearchProjectDef>
+    <defName>CBEATier3Purity</defName>
+    <label>Tier 3 Purity</label>
+    <description>Mid-tier Armor</description>
+    <baseCost>4500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>1.30</researchViewY>
+	<prerequisites>
+		<li>CBEATier2Soldier</li>
+		<li>Fabrication</li>
+	</prerequisites>
+ </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBEATier3PurityColor</defName>
+    <label>Tier 3 Purity (Color)</label>
+    <description>Mid-tier Armor</description>
+    <baseCost>500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>0.45</researchViewY>
+	<prerequisites>
+		<li>CBEATier3Purity</li>
+	</prerequisites>
+ </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBEATier3Supremacy</defName>
+    <label>Tier 3 Supremacy</label>
+    <description>Mid-tier Armor</description>
+    <baseCost>4500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.05</researchViewY>
+	<prerequisites>
+		<li>CBEATier2Soldier</li>
+		<li>Fabrication</li>		
+	</prerequisites>
+ </ResearchProjectDef>
+
+
+  <ResearchProjectDef>
+    <defName>CBEATier3Harmony</defName>
+    <label>Tier 3 Harmony</label>
+    <description>Mid-tier Armor</description>
+    <baseCost>4500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+	<prerequisites>
+		<li>CBEATier2Soldier</li>
+		<li>Fabrication</li>		
+	</prerequisites>
+  </ResearchProjectDef>
+
+	<!-- \\\ Tier 4 \\\ -->
+  <ResearchProjectDef>
+    <defName>CBEATier4Purity</defName>
+    <label>Tier 4 Purity</label>
+    <description>High-tier Armor</description>
+    <baseCost>5500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>1.30</researchViewY>
+	<prerequisites>
+		<li>CBEATier3Purity</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBEATier4PurityColor</defName>
+    <label>Tier 4 Purity (Color)</label>
+    <description>High-tier Armor</description>
+    <baseCost>500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>0.55</researchViewY>
+	<prerequisites>
+		<li>CBEATier4Purity</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+
+  <ResearchProjectDef>
+    <defName>CBEATier4Supremacy</defName>
+    <label>Tier 4 Supremacy</label>
+    <description>High-tier Armor</description>
+    <baseCost>5500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.05</researchViewY>
+	<prerequisites>
+		<li>CBEATier3Supremacy</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBEATier4Harmony</defName>
+    <label>Tier 4 Harmony</label>
+    <description>High-tier Armor</description>
+    <baseCost>5500</baseCost>
+	<tab>CBEAStab</tab>
+	<techLevel>Spacer</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+	<prerequisites>
+		<li>CBEATier3Harmony</li>
+	</prerequisites>		
+  </ResearchProjectDef>
+
+</Defs>
