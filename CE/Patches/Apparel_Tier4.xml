@@ -9,50 +9,50 @@
             <operations>
                 <!--===== Helmet =====-->
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Helmet"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Helmet"]/statBases</xpath>
                     <value>
-                        <Bulk>5</Bulk>
+                        <Bulk>7</Bulk>
                         <WornBulk>1</WornBulk>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Helmet"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Helmet"]/statBases</xpath>
                     <value>
                         <Flammability>0</Flammability>
                     </value>
                 </li>
 
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Helmet"]/statBases/ArmorRating_Sharp</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Helmet"]/statBases/ArmorRating_Sharp</xpath>
                     <value>
-                        <ArmorRating_Sharp>16</ArmorRating_Sharp>
+                        <ArmorRating_Sharp>21</ArmorRating_Sharp>
                     </value>
                 </li>
 
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Helmet"]/statBases/ArmorRating_Blunt</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Helmet"]/statBases/ArmorRating_Blunt</xpath>
                     <value>
-                        <ArmorRating_Blunt>36</ArmorRating_Blunt>
+                        <ArmorRating_Blunt>50</ArmorRating_Blunt>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Helmet"]/equippedStatOffsets</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Helmet"]/equippedStatOffsets</xpath>
                     <value>
                         <SmokeSensitivity>-1</SmokeSensitivity>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Helmet"]/apparel/bodyPartGroups</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Helmet"]/apparel/bodyPartGroups</xpath>
                     <value>
                         <li>Eyes</li>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Helmet"]/apparel/layers</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Helmet"]/apparel/layers</xpath>
                     <value>
                         <li>OnHead</li>
                         <li>StrappedHead</li>
@@ -62,7 +62,7 @@
 
                 <!--===== Armor =====-->
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Armor"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Armor"]/statBases</xpath>
                     <value>
                         <Bulk>100</Bulk>
                         <WornBulk>15</WornBulk>
@@ -70,36 +70,36 @@
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Armor"]/statBases</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Armor"]/statBases</xpath>
                     <value>
                         <Flammability>0</Flammability>
                     </value>
                 </li>
 
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Armor"]/statBases/ArmorRating_Sharp</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Armor"]/statBases/ArmorRating_Sharp</xpath>
                     <value>
-                        <ArmorRating_Sharp>20</ArmorRating_Sharp>
+                        <ArmorRating_Sharp>26</ArmorRating_Sharp>
                     </value>
                 </li>
 
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Armor"]/statBases/ArmorRating_Blunt</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Armor"]/statBases/ArmorRating_Blunt</xpath>
                     <value>
-                        <ArmorRating_Blunt>45</ArmorRating_Blunt>
+                        <ArmorRating_Blunt>55</ArmorRating_Blunt>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Armor"]/equippedStatOffsets</xpath>
-                    <value>                        
+                    <xpath>Defs/ThingDef[@Name="Tier4_Armor"]/equippedStatOffsets</xpath>
+                    <value>
                         <Bulk>80</Bulk>
-						<CarryBulk>10</CarryBulk>                      
+                        <CarryBulk>20</CarryBulk>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[@Name="Tier3_Armor"]/apparel/bodyPartGroups</xpath>
+                    <xpath>Defs/ThingDef[@Name="Tier4_Armor"]/apparel/bodyPartGroups</xpath>
                     <value>
                         <li>Hands</li>
                         <li>Feet</li>
