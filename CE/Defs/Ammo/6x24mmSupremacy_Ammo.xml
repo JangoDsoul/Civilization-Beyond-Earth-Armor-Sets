@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>Ammo6x24mmSupremacyCharged</defName>
+        <label>6x24mm Supremacy Charged</label>
+        <parent>AmmoAdvanced</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+    </ThingCategoryDef>
+
+    <!-- ==================== AmmoSet ========================== -->
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_6x24mmSupremacyCharged</defName>
+        <label>6x24mm Supremacy Charged</label>
+        <ammoTypes>
+            <Ammo_6x24mmSupremacyCharged>Bullet_6x24mmSupremacyCharged</Ammo_6x24mmSupremacyCharged>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+
+    <!-- ==================== Ammo ========================== -->
+    <ThingDef Class="CombatExtended.AmmoDef" Name="6x24mmSupremacyChargedBase" ParentName="SpacerSmallAmmoBase" Abstract="True">
+        <description>Charged shot ammo used by advanced Supremacy infused assault rifle designs.</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.01</Bulk>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting_FabricationBench</li>
+        </tradeTags>
+        <thingCategories>
+            <li>Ammo6x24mmSupremacyCharged</li>
+        </thingCategories>
+        <stackLimit>5000</stackLimit>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="6x24mmSupremacyChargedBase">
+        <defName>Ammo_6x24mmSupremacyCharged</defName>
+        <label>6x24mm Supremacy Charged cartridge</label>
+        <graphicData>
+            <texPath>Things/Ammo/Charged/Ion</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.7</MarketValue>
+        </statBases>
+        <ammoClass>SupremacyCharged</ammoClass>
+    </ThingDef>
+
+    <!-- ================== Projectiles ================== -->
+    <ThingDef Class="CombatExtended.AmmoDef" Name="Base6x24mmSupremacyChargedBullet" ParentName="BaseBullet" Abstract="true">
+        <graphicData>
+            <texPath>Things/Projectile/Supremacy</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <speed>160</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base6x24mmSupremacyChargedBullet">
+        <defName>Bullet_6x24mmSupremacyCharged</defName>
+        <label>6x24mm Supremacy Charged bullet</label>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageAmountBase>13</damageAmountBase>
+            <secondaryDamage>
+                <li>
+                    <def>Bomb_Secondary</def>
+                    <amount>2</amount>
+                </li>
+                <li>
+                    <def>EMP</def>
+                    <amount>6</amount>
+                </li>
+            </secondaryDamage>
+            <armorPenetrationSharp>12</armorPenetrationSharp>
+            <armorPenetrationBlunt>25.6</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+
+    <!-- ==================== Recipes ========================== -->
+    <RecipeDef ParentName="ChargeAmmoRecipeBase">
+        <defName>MakeAmmo_6x24mmSupremacyCharged</defName>
+        <label>make 6x24mm Supremacy Charged cartridge x500</label>
+        <description>Craft 500 6x24mm Supremacy Charged cartridges.</description>
+        <jobString>Making 6x24mm Supremacy Charged cartridges.</jobString>
+        <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Plasteel</li>
+                <li>Steel</li>
+                <li>ComponentIndustrial</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Ammo_6x24mmSupremacyCharged>500</Ammo_6x24mmSupremacyCharged>
+        </products>
+        <workAmount>11000</workAmount>
+    </RecipeDef>
+
+</Defs>
