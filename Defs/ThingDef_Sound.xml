@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
- <SoundDef>
+  <SoundDef>
     <defName>Tier1_SMG_Gun_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
-           <maxVoices>4</maxVoices>
-           <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
@@ -24,14 +24,14 @@
         </pitchRange>
       </li>
     </subSounds>
- </SoundDef>
+  </SoundDef>
 
- <SoundDef>
+  <SoundDef>
     <defName>Tier2_Rifle_Gun_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
-           <maxVoices>4</maxVoices>
-           <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
@@ -49,14 +49,14 @@
         </pitchRange>
       </li>
     </subSounds>
- </SoundDef>
- 
- <SoundDef>
+  </SoundDef>
+
+  <SoundDef>
     <defName>Tier3_Harmony_Rifle_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
-           <maxVoices>4</maxVoices>
-           <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
@@ -74,14 +74,14 @@
         </pitchRange>
       </li>
     </subSounds>
- </SoundDef>  
-  
- <SoundDef>
+  </SoundDef>
+
+  <SoundDef>
     <defName>Tier3_Supremacy_Rifle_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
-           <maxVoices>4</maxVoices>
-           <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
@@ -99,14 +99,14 @@
         </pitchRange>
       </li>
     </subSounds>
- </SoundDef>  
-    
- <SoundDef>
+  </SoundDef>
+
+  <SoundDef>
     <defName>Tier3_Purity_Rifle_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
-           <maxVoices>4</maxVoices>
-           <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
@@ -124,14 +124,14 @@
         </pitchRange>
       </li>
     </subSounds>
- </SoundDef>  
+  </SoundDef>
 
- <SoundDef>
+  <SoundDef>
     <defName>Tier4_Purity_Rifle_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
-           <maxVoices>4</maxVoices>
-           <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
@@ -149,7 +149,7 @@
         </pitchRange>
       </li>
     </subSounds>
- </SoundDef>  
-   
-  
+  </SoundDef>
+
+
 </Defs>
