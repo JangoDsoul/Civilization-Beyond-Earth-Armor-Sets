@@ -50,30 +50,37 @@
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 					<defName>Tier3_Harmony_Gun</defName>
 					<statBases>
-						<Mass>3.26</Mass>
+						<Mass>3.0</Mass>
 						<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
 						<SightsEfficiency>1.1</SightsEfficiency>
-						<ShotSpread>0.07</ShotSpread>
+						<ShotSpread>0.08</ShotSpread>
 						<SwayFactor>1.20</SwayFactor>
-						<Bulk>9.00</Bulk>
+						<Bulk>7.00</Bulk>
+						<WorkToMake>50000</WorkToMake>
 					</statBases>
+					<costList>
+						<Steel>50</Steel>
+						<Plasteel>30</Plasteel>
+						<ComponentIndustrial>11</ComponentIndustrial>
+						<Chemfuel>10</Chemfuel>
+					</costList>
 					<Properties>
-						<recoilAmount>1.20</recoilAmount>
+						<recoilAmount>1.51</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 						<hasStandardCommand>true</hasStandardCommand>
-						<defaultProjectile>Bullet_HarmonyCharged</defaultProjectile>
-						<warmupTime>1.1</warmupTime>
-						<range>58</range>
-						<burstShotCount>6</burstShotCount>
+						<defaultProjectile>Bullet_6x24mmHarmonyCharged</defaultProjectile>
+						<warmupTime>1.0</warmupTime>
+						<range>55</range>
 						<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+						<burstShotCount>6</burstShotCount>
 						<soundCast>Tier3_Harmony_Rifle_Sound</soundCast>
 						<soundCastTail>GunTail_Medium</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>30</magazineSize>
-						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_HarmonyCharged</ammoSet>
+						<magazineSize>45</magazineSize>
+						<reloadTime>4.5</reloadTime>
+						<ammoSet>AmmoSet_6x24mmHarmonyCharged</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -81,6 +88,7 @@
 						<aiAimMode>AimedShot</aiAimMode>
 					</FireModes>
 					<weaponTags>
+						<li>SpacerGun</li>
 						<li>CE_AI_Rifle</li>
 					</weaponTags>
 				</li>
@@ -89,30 +97,37 @@
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 					<defName>Tier3_Supremacy_Gun</defName>
 					<statBases>
-						<Mass>3.26</Mass>
+						<Mass>3.0</Mass>
 						<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
 						<SightsEfficiency>1.1</SightsEfficiency>
-						<ShotSpread>0.07</ShotSpread>
+						<ShotSpread>0.08</ShotSpread>
 						<SwayFactor>1.20</SwayFactor>
-						<Bulk>9.00</Bulk>
+						<Bulk>7.00</Bulk>
+						<WorkToMake>50000</WorkToMake>
 					</statBases>
+					<costList>
+						<Steel>50</Steel>
+						<Plasteel>30</Plasteel>
+						<ComponentIndustrial>11</ComponentIndustrial>
+						<Chemfuel>10</Chemfuel>
+					</costList>
 					<Properties>
-						<recoilAmount>1.20</recoilAmount>
+						<recoilAmount>1.51</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 						<hasStandardCommand>true</hasStandardCommand>
-						<defaultProjectile>Bullet_SupremacyCharged</defaultProjectile>
-						<warmupTime>1.1</warmupTime>
-						<range>58</range>
-						<burstShotCount>6</burstShotCount>
+						<defaultProjectile>Bullet_6x24mmSupremacyCharged</defaultProjectile>
+						<warmupTime>1.0</warmupTime>
+						<range>55</range>
 						<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+						<burstShotCount>6</burstShotCount>
 						<soundCast>Tier3_Supremacy_Rifle_Sound</soundCast>
 						<soundCastTail>GunTail_Medium</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>30</magazineSize>
-						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_SupremacyCharged</ammoSet>
+						<magazineSize>45</magazineSize>
+						<reloadTime>4.5</reloadTime>
+						<ammoSet>AmmoSet_6x24mmSupremacyCharged</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -120,6 +135,7 @@
 						<aiAimMode>AimedShot</aiAimMode>
 					</FireModes>
 					<weaponTags>
+						<li>SpacerGun</li>
 						<li>CE_AI_Rifle</li>
 					</weaponTags>
 				</li>
@@ -128,30 +144,37 @@
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 					<defName>Tier3_Purity_Gun</defName>
 					<statBases>
-						<Mass>3.26</Mass>
+						<Mass>3.0</Mass>
 						<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
 						<SightsEfficiency>1.1</SightsEfficiency>
-						<ShotSpread>0.07</ShotSpread>
+						<ShotSpread>0.08</ShotSpread>
 						<SwayFactor>1.20</SwayFactor>
-						<Bulk>9.00</Bulk>
+						<Bulk>7.00</Bulk>
+						<WorkToMake>50000</WorkToMake>
 					</statBases>
+					<costList>
+						<Steel>50</Steel>
+						<Plasteel>30</Plasteel>
+						<ComponentIndustrial>11</ComponentIndustrial>
+						<Chemfuel>10</Chemfuel>
+					</costList>
 					<Properties>
-						<recoilAmount>1.20</recoilAmount>
+						<recoilAmount>1.51</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 						<hasStandardCommand>true</hasStandardCommand>
-						<defaultProjectile>Bullet_PurityCharged</defaultProjectile>
-						<warmupTime>1.1</warmupTime>
-						<range>58</range>
-						<burstShotCount>6</burstShotCount>
+						<defaultProjectile>Bullet_6x24mmPurityCharged</defaultProjectile>
+						<warmupTime>1.0</warmupTime>
+						<range>55</range>
 						<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+						<burstShotCount>6</burstShotCount>
 						<soundCast>Tier3_Purity_Rifle_Sound</soundCast>
 						<soundCastTail>GunTail_Medium</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
 					</Properties>
 					<AmmoUser>
-						<magazineSize>30</magazineSize>
-						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_PurityCharged</ammoSet>
+						<magazineSize>45</magazineSize>
+						<reloadTime>4.5</reloadTime>
+						<ammoSet>AmmoSet_6x24mmPurityCharged</ammoSet>
 					</AmmoUser>
 					<FireModes>
 						<aimedBurstShotCount>3</aimedBurstShotCount>
@@ -159,9 +182,11 @@
 						<aiAimMode>AimedShot</aiAimMode>
 					</FireModes>
 					<weaponTags>
+						<li>SpacerGun</li>
 						<li>CE_AI_Rifle</li>
 					</weaponTags>
 				</li>
+
 			</operations>
 		</match>
 	</Operation>

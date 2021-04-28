@@ -8,7 +8,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Tier1_Carbine_Soldier"]/tools</xpath>
+					<xpath>Defs/ThingDef[@Name="Tier4_Weapon"]/tools</xpath>
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
@@ -46,50 +46,57 @@
 					</value>
 				</li>
 
-				<!--===== Tier1_Carbine_Soldier =====-->
+				<!--===== Tier4_Harmony_Gun =====-->				
+
+				<!--===== Tier4_Supremacy_Gun =====-->
+
+				<!--===== Tier4_Purity_Gun =====-->
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-					<defName>Tier1_Carbine_Soldier</defName>
+					<defName>Tier4_Purity_Gun</defName>
 					<statBases>
-						<Mass>2.50</Mass>
-						<RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
-						<SightsEfficiency>1</SightsEfficiency>
-						<ShotSpread>0.14</ShotSpread>
-						<SwayFactor>0.94</SwayFactor>
-						<Bulk>4.50</Bulk>
-						<WorkToMake>25500</WorkToMake>
+						<WorkToMake>60000</WorkToMake>
+						<Mass>9.0</Mass>
+						<Bulk>16.46</Bulk>
+						<SwayFactor>1.26</SwayFactor>
+						<ShotSpread>0.05</ShotSpread>
+						<SightsEfficiency>1.1</SightsEfficiency>
+						<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
 					</statBases>
 					<costList>
-						<Steel>40</Steel>
-						<Chemfuel>10</Chemfuel>
-						<ComponentIndustrial>5</ComponentIndustrial>
+						<Steel>70</Steel>
+						<Plasteel>35</Plasteel>
+						<Chemfuel>15</Chemfuel>
+						<ComponentIndustrial>11</ComponentIndustrial>
 					</costList>
 					<Properties>
-						<recoilAmount>2.08</recoilAmount>
 						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
-						<hasStandardCommand>true</hasStandardCommand>
-						<defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-						<warmupTime>0.6</warmupTime>
-						<range>25</range>
+						<hasStandardCommand>True</hasStandardCommand>
+						<defaultProjectile>Bullet_8x35mmPurityCharged</defaultProjectile>
 						<burstShotCount>6</burstShotCount>
-						<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-						<soundCast>Tier1_SMG_Gun_Sound</soundCast>
+						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+						<warmupTime>1.2</warmupTime>
+						<range>62</range>
+						<soundCast>Tier4_Purity_Rifle_Sound</soundCast>
 						<soundCastTail>GunTail_Medium</soundCastTail>
 						<muzzleFlashScale>9</muzzleFlashScale>
+						<recoilAmount>1.16</recoilAmount>
 					</Properties>
 					<AmmoUser>
 						<magazineSize>30</magazineSize>
 						<reloadTime>4</reloadTime>
-						<ammoSet>AmmoSet_45ACP</ammoSet>
+						<ammoSet>AmmoSet_8x35mmPurityCharged</ammoSet>
 					</AmmoUser>
 					<FireModes>
+						<aiUseBurstMode>TRUE</aiUseBurstMode>
+						<aiAimMode>AimedShot</aiAimMode>
 						<aimedBurstShotCount>3</aimedBurstShotCount>
-						<aiUseBurstMode>FALSE</aiUseBurstMode>
 					</FireModes>
 					<weaponTags>
-						<li>CE_SMG</li>
-						<li>CE_AI_AssaultWeapon</li>
+						<li>SpacerGun</li>
+						<li>CE_AI_Rifle</li>
 					</weaponTags>
 				</li>
+
 			</operations>
 		</match>
 	</Operation>
