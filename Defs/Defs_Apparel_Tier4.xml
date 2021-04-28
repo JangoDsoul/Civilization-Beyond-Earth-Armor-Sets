@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-		<!-- ==== Tier Helemt Base ==== -->
-
-  <ThingDef  Name="Tier4_Helmet" ParentName="ArmorHelmetMakeableBase" Abstract="True">
-		<techLevel>Spacer</techLevel>
-		<tradeability>Sellable</tradeability>
-		<generateCommonality>0</generateCommonality>
-		<generateAllowChance>0</generateAllowChance>		
-	<graphicData>
+  <!-- ==== Tier Helemt Base ==== -->
+  <ThingDef Name="Tier4_Helmet" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0</generateAllowChance>
+    <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -23,50 +22,49 @@
       <EquipDelay>4</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-		<ToxicSensitivity>-0.80</ToxicSensitivity>
-		<ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
-	</equippedStatOffsets>
+      <ToxicSensitivity>-0.80</ToxicSensitivity>
+      <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+    </equippedStatOffsets>
     <costList>
-		<Steel>45</Steel>
-		<Plasteel>50</Plasteel>
-		<ComponentSpacer>2</ComponentSpacer>
+      <Steel>45</Steel>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <recipeMaker>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
-	  <recipeUsers Inherit="False">
-		<li>FabricationBench</li>
-      </recipeUsers>	  
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
     </recipeMaker>
     <apparel>
-		<bodyPartGroups>
-			<li>FullHead</li>
-		</bodyPartGroups>
-		<layers>
-			<li>Overhead</li>
-		</layers>
-		<tags>
-			<li>EVA</li>
-		</tags>
-		<defaultOutfitTags>
-			<li>Soldier</li>
-		</defaultOutfitTags>
-		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>EVA</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
-	<thingCategories Inherit="False">
-		<li>Headgear</li>
-	</thingCategories>
+    <thingCategories Inherit="False">
+      <li>Headgear</li>
+    </thingCategories>
   </ThingDef>
 
-		<!-- Tier Armor Base -->
-
+  <!-- Tier Armor Base -->
   <ThingDef Name="Tier4_Armor" ParentName="ApparelMakeableBase" Abstract="True">
-		<techLevel>Spacer</techLevel>
-		<tradeability>Sellable</tradeability>
-		<generateCommonality>0</generateCommonality>
-		<generateAllowChance>0</generateAllowChance>
-	<graphicData>
+    <techLevel>Spacer</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0</generateAllowChance>
+    <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -81,53 +79,52 @@
       <EquipDelay>12</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-		<ToxicSensitivity>-0.30</ToxicSensitivity>	
-		<PainShockThreshold>0.15</PainShockThreshold>
-		<SocialImpact>0.05</SocialImpact>		
-	</equippedStatOffsets>
+      <ToxicSensitivity>-0.30</ToxicSensitivity>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <SocialImpact>0.05</SocialImpact>
+    </equippedStatOffsets>
     <costList>
-		<Steel>50</Steel>
-		<Cloth>30</Cloth>
-		<Plasteel>100</Plasteel>		
-		<ComponentIndustrial>3</ComponentIndustrial>
+      <Steel>50</Steel>
+      <Cloth>30</Cloth>
+      <Plasteel>100</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
-	  <recipeUsers Inherit="False">
-		<li>FabricationBench</li>
-      </recipeUsers>	  
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
     </recipeMaker>
     <apparel>
-		<bodyPartGroups>
-			<li>Neck</li>
-			<li>Torso</li>
-			<li>Shoulders</li>
-			<li>Waist</li>
-			<li>Arms</li>
-			<li>Legs</li>
-		</bodyPartGroups>
-		<layers>
-			<li>Middle</li>
-			<li>Shell</li>
-		</layers>
-		<tags>
-			<li>EVA</li>
-		</tags>
-		<defaultOutfitTags>
-			<li>Soldier</li>
-		</defaultOutfitTags>
-		<useDeflectMetalEffect>true</useDeflectMetalEffect>
-	</apparel>
-	<thingCategories Inherit="False">
-		<li>Apparel</li>
-	</thingCategories>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Waist</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>EVA</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+    <thingCategories Inherit="False">
+      <li>Apparel</li>
+    </thingCategories>
   </ThingDef>
 
-		<!-- Tier 4 Gun Base -->
-
- <ThingDef Name="Tier4_Weapon" ParentName="BaseHumanMakeableGun" Abstract="True">
+  <!-- Tier 4 Gun Base -->
+  <ThingDef Name="Tier4_Weapon" ParentName="BaseHumanMakeableGun" Abstract="True">
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -137,11 +134,13 @@
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
-	  <recipeUsers Inherit="False">
-		<li>FabricationBench</li>
-      </recipeUsers>	  
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
     </recipeMaker>
-    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <costList>
       <Steel>90</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
@@ -166,15 +165,15 @@
         </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
-      </li> 
+      </li>
     </tools>
-	<comps>
+    <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
-    </comps>	
+    </comps>
   </ThingDef>
-  
-  		<!-- Bullet Base >	
+
+  <!-- Bullet Base >	
   
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Harmony</defName>
@@ -221,7 +220,7 @@
     </projectile>
   </ThingDef>  
 -->
-		<!--  Tier 4 Harmony Set >
+  <!--  Tier 4 Harmony Set >
 
   <ThingDef ParentName="Tier4_Helmet">
 	<defName>Tier3_Harmony_Helmet</defName>
@@ -350,55 +349,55 @@
     </verbs>	
   </ThingDef>
 -->
-		<!-- Tier 4 Purity Set -->
+  <!-- Tier 4 Purity Set -->
 
   <ThingDef ParentName="Tier4_Helmet">
-	<defName>Tier4_Purity_Helmet</defName>
-	<label>Tier 4 Purity Helmet</label>
-	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
-	<graphicData>
+    <defName>Tier4_Purity_Helmet</defName>
+    <label>Tier 4 Purity Helmet</label>
+    <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Tier4_Purity_Hetmet_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier4_Purity/Tier4_Purity_Hetmet</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Tier4_Purity_Hetmet</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4Purity</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>  
+      <researchPrerequisite>CBEATier4Purity</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
   <ThingDef ParentName="Tier4_Armor">
-	  <defName>Tier4_Purity_Armor</defName>
-	  <label>Tier 4 Purity Armor</label>
-	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
-	<graphicData>
+    <defName>Tier4_Purity_Armor</defName>
+    <label>Tier 4 Purity Armor</label>
+    <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Tier4_Purity_Armor_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier4_Purity/Tier4_Purity_Armor</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Tier4_Purity_Armor</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4Purity</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef> 
+      <researchPrerequisite>CBEATier4Purity</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
   <ThingDef ParentName="Tier4_Weapon">
-	  <defName>Tier4_Purity_Gun</defName>
-	  <label>Tier 4 Purity Weapon</label>
-	<description>"Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles."</description>		  	  
-	<graphicData>
+    <defName>Tier4_Purity_Gun</defName>
+    <label>Tier 4 Purity Weapon</label>
+    <description>"Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Tier4_Purity_Weapon</texPath>
-	  <drawSize>1.0</drawSize>   
-    </graphicData>	
+      <drawSize>1.0</drawSize>
+    </graphicData>
     <statBases>
-      <WorkToMake>45000</WorkToMake>	
+      <WorkToMake>45000</WorkToMake>
       <Mass>9</Mass>
       <AccuracyTouch>0.99</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.85</AccuracyMedium>
       <AccuracyLong>0.30</AccuracyLong>
       <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
-    </statBases>	
+    </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -412,162 +411,162 @@
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-    </verbs>	
+    </verbs>
   </ThingDef>
 
-		<!-- Tier 4 Purity Helmet Color -->
+  <!-- Tier 4 Purity Helmet Color -->
 
   <ThingDef ParentName="Tier4_Helmet">
-	<defName>Tier4_Blue_Purity_Helmet</defName>
-	<label>Tier 4 Purity Helmet(Blue)</label>
-	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
-	<graphicData>
+    <defName>Tier4_Blue_Purity_Helmet</defName>
+    <label>Tier 4 Purity Helmet(Blue)</label>
+    <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Blue_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Blue</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Blue</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>  
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef ParentName="Tier4_Helmet">
-	<defName>Tier4_Green_Purity_Helmet</defName>
-	<label>Tier 4 Purity Helmet(Green)</label>
-	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
-	<graphicData>
+    <defName>Tier4_Green_Purity_Helmet</defName>
+    <label>Tier 4 Purity Helmet(Green)</label>
+    <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Green_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Green</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Green</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>    
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef ParentName="Tier4_Helmet">
-	<defName>Tier4_Orange_Purity_Helmet</defName>
-	<label>Tier 4 Purity Helmet(Orange)</label>
-	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
-	<graphicData>
+    <defName>Tier4_Orange_Purity_Helmet</defName>
+    <label>Tier 4 Purity Helmet(Orange)</label>
+    <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Orange_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Orange</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Orange</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>      
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef ParentName="Tier4_Helmet">
-	<defName>Tier4_Purple_Purity_Helmet</defName>
-	<label>Tier 4 Purity Helmet(Purple)</label>
-	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
-	<graphicData>
+    <defName>Tier4_Purple_Purity_Helmet</defName>
+    <label>Tier 4 Purity Helmet(Purple)</label>
+    <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Purple_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Purple</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Purple</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>        
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef ParentName="Tier4_Helmet">
-	<defName>Tier4_Yellow_Purity_Helmet</defName>
-	<label>Tier 4 Purity Helmet(Yellow)</label>
-	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
-	<graphicData>
+    <defName>Tier4_Yellow_Purity_Helmet</defName>
+    <label>Tier 4 Purity Helmet(Yellow)</label>
+    <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Yellow_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Yellow</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Yellow</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>       
-  
-		<!-- Tier 4 Purity Armor Color -->  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Tier 4 Purity Armor Color -->
 
   <ThingDef ParentName="Tier4_Armor">
-	  <defName>Tier4_Blue_Purity_Armor</defName>
-	  <label>Tier 4 Purity Armor(Blue)</label>
-	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
-	<graphicData>
+    <defName>Tier4_Blue_Purity_Armor</defName>
+    <label>Tier 4 Purity Armor(Blue)</label>
+    <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Blue_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Blue</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Blue</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef> 
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
 
   <ThingDef ParentName="Tier4_Armor">
-	  <defName>Tier4_Green_Purity_Armor</defName>
-	  <label>Tier 4 Purity Armor(Green)</label>
-	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
-	<graphicData>
+    <defName>Tier4_Green_Purity_Armor</defName>
+    <label>Tier 4 Purity Armor(Green)</label>
+    <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Green_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Green</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Green</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef> 
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef ParentName="Tier4_Armor">
-	  <defName>Tier4_Orange_Purity_Armor</defName>
-	  <label>Tier 4 Purity Armor(Orange)</label>
-	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
-	<graphicData>
+    <defName>Tier4_Orange_Purity_Armor</defName>
+    <label>Tier 4 Purity Armor(Orange)</label>
+    <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Orange_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Orange</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Orange</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>   
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef ParentName="Tier4_Armor">
-	  <defName>Tier4_Purple_Purity_Armor</defName>
-	  <label>Tier 4 Purity Armor(Purple)</label>
-	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
-	<graphicData>
+    <defName>Tier4_Purple_Purity_Armor</defName>
+    <label>Tier 4 Purity Armor(Purple)</label>
+    <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Purple_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Purple</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Purple</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>     
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef ParentName="Tier4_Armor">
-	  <defName>Tier4_Yellow_Purity_Armor</defName>
-	  <label>Tier 4 Purity Armor(Yellow)</label>
-	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
-	<graphicData>
+    <defName>Tier4_Yellow_Purity_Armor</defName>
+    <label>Tier 4 Purity Armor(Yellow)</label>
+    <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
+    <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Yellow_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Yellow</wornGraphicPath>
-    </apparel>	
+      <wornGraphicPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Yellow</wornGraphicPath>
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>	  
-    </recipeMaker>	
-  </ThingDef>       
-  
+      <researchPrerequisite>CBEATier4PurityColor</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
 </Defs>
