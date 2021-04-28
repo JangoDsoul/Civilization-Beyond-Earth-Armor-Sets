@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>HarmonyCharged</defName>
+        <label>Harmony</label>
+        <description>The charged particle coating disrupts armor and tissue in equal measure. Harmony infused.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>PurityCharged</defName>
+        <label>Purity</label>
+        <description>The charged particle coating disrupts armor and tissue in equal measure. Purity infused.</description>
+    </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+        <defName>SupremacyCharged</defName>
+        <label>Supremacy</label>
+        <description>The charged particle coating disrupts armor and tissue in equal measure. Supremacy infused</description>
+    </CombatExtended.AmmoCategoryDef>
+
+</Defs> 
