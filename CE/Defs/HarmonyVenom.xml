@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<DamageDef ParentName="Arrow">
+    <defName>HarmonyVenom</defName>
+    <hediff>HarmonyBullet</hediff>
+</DamageDef>
+
+<HediffDef ParentName="Cut">
+    <defName>HarmonyBullet</defName>
+    <label>harmony toxin</label>
+    <labelNoun>harmony toxin</labelNoun>
+    <comps>
+        <li Class="CombatExtended.HediffCompProperties_Venom">
+            <VenomPerSeverity>0.0000230</VenomPerSeverity>
+            <MinTicks>10000</MinTicks>
+            <MaxTicks>17500</MaxTicks>
+        </li>
+    </comps>
+</HediffDef>
+
+</Defs>
