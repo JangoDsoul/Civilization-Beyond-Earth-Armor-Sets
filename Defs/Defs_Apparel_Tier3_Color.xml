@@ -5,7 +5,7 @@
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Purity_Helmet_Blue</defName>
-	<label>Tier 3 Purity Helmet(Blue)</label>
+	<label>Tier 3 Disciple Helmet(Blue)</label>
 	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Blue/Tier3_Purity_Helmet_Blue_UI</texPath>
@@ -20,7 +20,7 @@
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Purity_Helmet_Green</defName>
-	<label>Tier 3 Purity Helmet(Green)</label>
+	<label>Tier 3 Disciple Helmet(Green)</label>
 	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Green/Tier3_Purity_Helmet_Green_UI</texPath>
@@ -35,7 +35,7 @@
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Purity_Helmet_Orange</defName>
-	<label>Tier 3 Purity Helmet(Orange)</label>
+	<label>Tier 3 Disciple Helmet(Orange)</label>
 	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Orange/Tier3_Purity_Helmet_Orange_UI</texPath>
@@ -50,7 +50,7 @@
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Purity_Helmet_Purple</defName>
-	<label>Tier 3 Purity Helmet(Purple)</label>
+	<label>Tier 3 Disciple Helmet(Purple)</label>
 	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Purple/Tier3_Purity_Helmet_Purple_UI</texPath>
@@ -65,7 +65,7 @@
   
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Purity_Helmet_Yellow</defName>
-	<label>Tier 3 Purity Helmet(Yellow)</label>
+	<label>Tier 3 Disciple Helmet(Yellow)</label>
 	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Yellow/Tier3_Purity_Helmet_Yellow_UI</texPath>
@@ -82,7 +82,7 @@
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Purity_Armor_Blue</defName>
-	  <label>Tier3 Purity Armor(Blue)</label>
+	  <label>Tier3 Disciple Armor(Blue)</label>
 	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>	  
 	<graphicData>
       <texPath>Things/Tier3_Blue/Tier3_Purity_Armor_Blue_UI</texPath>
@@ -97,7 +97,7 @@
  
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Purity_Armor_Green</defName>
-	  <label>Tier3 Purity Armor(Green)</label>
+	  <label>Tier3 Disciple Armor(Green)</label>
 	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>	  
 	<graphicData>
       <texPath>Things/Tier3_Green/Tier3_Purity_Armor_Green_UI</texPath>
@@ -112,7 +112,7 @@
   
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Purity_Armor_Orange</defName>
-	  <label>Tier3 Purity Armor(Orange)</label>
+	  <label>Tier3 Disciple Armor(Orange)</label>
 	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>	  
 	<graphicData>
       <texPath>Things/Tier3_Orange/Tier3_Purity_Armor_Orange_UI</texPath>
@@ -127,7 +127,7 @@
   
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Purity_Armor_Purple</defName>
-	  <label>Tier3 Purity Armor(Purple)</label>
+	  <label>Tier3 Disciple Armor(Purple)</label>
 	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>	  
 	<graphicData>
       <texPath>Things/Tier3_Purple/Tier3_Purity_Armor_Purple_UI</texPath>
@@ -142,7 +142,7 @@
   
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Purity_Armor_Yellow</defName>
-	  <label>Tier3 Purity Armor(Yellow)</label>
+	  <label>Tier3 Disciple Armor(Yellow)</label>
 	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>	  
 	<graphicData>
       <texPath>Things/Tier3_Yellow/Tier3_Purity_Armor_Yellow_UI</texPath>

@@ -55,7 +55,7 @@
   <!-- \\\\ Tier 2 \\\\ -->
   <ResearchProjectDef>
     <defName>CBEATier2Soldier</defName>
-    <label>Tier 2 Soldier</label>
+    <label>Tier 2 Marine</label>
     <description>Better then Tier 1 Armor set</description>
     <baseCost>3500</baseCost>
     <tab>CBEAStab</tab>
@@ -70,7 +70,7 @@
 
   <ResearchProjectDef>
     <defName>CBEATier2SoldierColor</defName>
-    <label>Tier 2 Soldier (Color)</label>
+    <label>Tier 2 Marine (Color)</label>
     <description>Better then Tier 1 Armor set but more Colors</description>
     <baseCost>500</baseCost>
     <tab>CBEAStab</tab>
@@ -166,7 +166,7 @@
     <tab>CBEAStab</tab>
     <techLevel>Spacer</techLevel>
     <researchViewX>6.00</researchViewX>
-    <researchViewY>0.55</researchViewY>
+    <researchViewY>0.45</researchViewY>
     <prerequisites>
       <li>CBEATier4Purity</li>
     </prerequisites>
@@ -198,6 +198,51 @@
     <researchViewY>2.80</researchViewY>
     <prerequisites>
       <li>CBEATier3Harmony</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBEATier4HybridOne</defName>
+    <label>Tier 4 Puritanical Supremacists</label>
+    <description>High-tier Hybrid Armor</description>
+    <baseCost>5500</baseCost>
+    <tab>CBEAStab</tab>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>1.20</researchViewY>
+    <prerequisites>
+      <li>CBEATier3Purity</li>
+	  <li>CBEATier3Supremacy</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBEATier4HybridTwo</defName>
+    <label>Tier 4 Harmonal Purists</label>
+    <description>High-tier Hybrid Armor</description>
+    <baseCost>5500</baseCost>
+    <tab>CBEAStab</tab>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+    <prerequisites>
+      <li>CBEATier3Purity</li>
+	  <li>CBEATier3Harmony</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBEATier4HybridThree</defName>
+    <label>Tier 4 Harmonal Supremacists</label>
+    <description>High-tier Hybrid Armor</description>
+    <baseCost>5500</baseCost>
+    <tab>CBEAStab</tab>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+    <prerequisites>
+      <li>CBEATier3Harmony</li>
+	  <li>CBEATier3Supremacy</li>
     </prerequisites>
   </ResearchProjectDef>
 

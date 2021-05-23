@@ -184,7 +184,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
+      <damageAmountBase>9</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>	  
       <speed>45</speed>
     </projectile>
@@ -199,7 +199,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>37</damageAmountBase>
+      <damageAmountBase>13</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>		  
       <speed>120</speed>
     </projectile>
@@ -214,7 +214,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
+      <damageAmountBase>10</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>		  
       <speed>80</speed>
     </projectile>
@@ -224,7 +224,7 @@
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Harmony_Helmet</defName>
-	<label>Tier 3 Harmony Helmet</label>
+	<label>Tier 3 Brawler Helmet</label>
 	<description>"Harmony are the ones that get the most 'in tune' with local wildlife. They use biology, genetics and nanotechnology exclusively to the end of altering the human body's biochemistry and physiology in order to adapt it for life on this alien planet."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Harmony/Tier3_Harmony_Helmet_UI</texPath>
@@ -243,7 +243,7 @@
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Harmony_Armor</defName>
-	  <label>Tier 3 Harmony Armor</label>
+	  <label>Tier 3 Brawler Armor</label>
 	  <description>"A style which uses many curves, various shades of green, and art which alludes to biological organs and natural features."</description>		  
 	<graphicData>
       <texPath>Things/Tier3_Harmony/Tier3_Harmony_Armor_UI</texPath>
@@ -262,7 +262,7 @@
 
   <ThingDef ParentName="Tier3_Weapon">
 	  <defName>Tier3_Harmony_Gun</defName>
-	  <label>Tier 3 Harmony Weapon</label>
+	  <label>Tier 3 Brawler Weapon</label>
 	  <description>"Harmony appear to make heavy use of poison-like substances in their munitions, likely militarized variants of the chemically degrading biological clouds of fungal spores dubbed Miasma by the colonists, only of course on a far more concentrated and magnified scale."</description>		  
 	<graphicData>
       <texPath>Things/Tier3_Harmony/Harmony_weapon</texPath>
@@ -300,7 +300,7 @@
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Supremacy_Helmet</defName>
-	<label>Tier 3 Supremacy Helmet</label>
+	<label>Tier 3 Disciple Helmet</label>
 	<description>"Supremacy,focus on improving technology and improving themselves with cybernetics in order to be able to survive the harshest of environments on the new planet regardless of outside conditions."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Helmet_UI</texPath>
@@ -315,7 +315,7 @@
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Supremacy_Armor</defName>
-	  <label>Tier 3 Supremacy Armor</label>
+	  <label>Tier 3 Disciple Armor</label>
 	<description>"Supremacy are the most machine-like of the three Affinities. They develop sophisticated AI, make widespread use of autonomous and semi-autonomous robotic systems, and in general go the way of bionics, augmentation and merging human and machine."</description>		  
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Armor_UI</texPath>
@@ -333,7 +333,7 @@
 
   <ThingDef ParentName="Tier3_Weapon">
 	  <defName>Tier3_Supremacy_Gun</defName>
-	  <label>Tier 3 Supremacy Weapon</label>
+	  <label>Tier 3 Disciple Weapon</label>
 	<description>"Supremacy weapons appear fire- and explosive-based, with yellow and orange colors which give the impression of superheated blast shells."</description>		  	  
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Supremacy_weapon</texPath>
@@ -371,7 +371,7 @@
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Purity_Helmet</defName>
-	<label>Tier 3 Purity Helmet(Red)</label>
+	<label>Tier 3 Sentinel Helmet(Red)</label>
 	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
 	<graphicData>
       <texPath>Things/Tier3_Purity/Tier3_Purity_Hetmet_UI</texPath>
@@ -386,7 +386,7 @@
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Purity_Armor</defName>
-	  <label>Tier 3 Purity Armor(Red)</label>
+	  <label>Tier 3 Sentinel Armor(Red)</label>
 	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
 	<graphicData>
       <texPath>Things/Tier3_Purity/Tier3_Purity_Armor_UI</texPath>
@@ -401,7 +401,7 @@
 
   <ThingDef ParentName="Tier3_Weapon">
 	  <defName>Tier3_Purity_Gun</defName>
-	  <label>Tier 3 Purity Weapon</label>
+	  <label>Tier 3 Sentinel Power Rifle</label>
 	<description>"Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles."</description>		  	  
 	<graphicData>
       <texPath>Things/Tier3_Purity/Tier3_Purity_Weapon</texPath>

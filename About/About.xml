@@ -10,33 +10,29 @@
 This mod adds Civilization Beyond Earth armor From the Soldier Tree
 
 [h1]Features:[/h1]
- - Tier 1 Soldier Helemet
- - Tier 1 Soldier Armor Suit
- - Tier 1 Soldier Carbine
- - Tier 3 Harmony Helemet
- - Tier 3 Harmony Armor
- - Tier 3 Harmony Weapon 
- - Tier 3 Supremacy Helmet
- - Tier 3 Supremacy Armor
- - Tier 3 Supremacy Weapon  
- - Tier 3 Purity Helmet
- - Tier 3 Purity Armor
- - Tier 3 Purity Weapon
+ - New Tech Tree
+ - Tier 1 Soldier Suit Set
+ - Tier 2 Soldier Armor Set
+ - Tier 3 Harmony Armor Set
+ - Tier 3 Supremacy Armor Set 
+ - Tier 3 Purity Armor Set
+ - Tier 4 Purity Armor Set
+ - Tier 4 Supremacy Armor Set
+ - Tier 4 Hybrid Armor Set (Eidolon)
  - Helemt and Suit in 6 difference colors : Red,Blue,Green,Purple,Orange,Yellow.
  - Helemt and Suit in 5 difference Camos : Winter,Navy,Desert,Desert,Woodland,Stealth
- - Tier 3 Purity Helemt and Armor in 6 difference colors : Red,Blue,Green,Purple,Orange,Yellow.
+ - Tier 2,3,4 Purity Helemt and Armor in 6 difference colors : Red,Blue,Green,Purple,Orange,Yellow.
  
- 
-[h1]ResearchPrerequisite:[/h1]
- - GasOperation: Soldier Carbine
- - FlakArmor: Soldier Helemet and Suits
  
 Commissioned by "JangoD'soul" for "ParaNautic(chrissmooth25)#7464" from "Rimworld Mod Market" Discord.
 
 [h1]Credits:[/h1]
 -Civilization Beyond Earth
--JangoDsoul- Art and XML coder [url=https://discord.gg/7B7xqHh][img]https://i.imgur.com/cfoFEMA.png[/img][/url]
+-JangoDsoul- Art and XML coder
 -Harkon- Combat Extended patch
+
+[url=https://discord.com/invite/7befJWr9xS][img]https://i.imgur.com/cfoFEMA.png[/img][/url]	   
+
 	</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>

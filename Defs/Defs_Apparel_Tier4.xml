@@ -27,8 +27,8 @@
     </equippedStatOffsets>
     <costList>
       <Steel>45</Steel>
-      <Plasteel>50</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
+      <Plasteel>80</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <recipeMaker>
       <skillRequirements>
@@ -58,7 +58,7 @@
     </thingCategories>
   </ThingDef>
 
-  <!-- Tier Armor Base -->
+  <!-- Tier 4 Armor Base -->
   <ThingDef Name="Tier4_Armor" ParentName="ApparelMakeableBase" Abstract="True">
     <techLevel>Spacer</techLevel>
     <tradeability>Sellable</tradeability>
@@ -84,10 +84,10 @@
       <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
     <costList>
-      <Steel>50</Steel>
+      <Steel>60</Steel>
       <Cloth>30</Cloth>
       <Plasteel>100</Plasteel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <recipeMaker>
       <skillRequirements>
@@ -130,7 +130,6 @@
     </graphicData>
     <soundInteract>Interact_ChargeLance</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>CBEATier4Purity</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
@@ -173,10 +172,10 @@
     </comps>
   </ThingDef>
 
-  <!-- Bullet Base >	
+  		<!-- Bullet Base -->	
   
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Harmony</defName>
+    <defName>Bullet_Tier4Harmony</defName>
     <label>Harmony Ball of energy</label>
     <graphicData>
       <texPath>Things/Tier3_Harmony/Harmony_Bullet</texPath>
@@ -184,14 +183,14 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
+      <damageAmountBase>13</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>	  
       <speed>45</speed>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Supremacy</defName>
+    <defName>Bullet_Tier4Supremacy</defName>
     <label>Supremacy bolt</label>
     <graphicData>
       <texPath>Things/Tier3_Supremacy/Supremacy_Bullet</texPath>
@@ -199,27 +198,42 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>37</damageAmountBase>
+      <damageAmountBase>20</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>		  
       <speed>120</speed>
     </projectile>
   </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Purity</defName>
+    <defName>Bullet_Tier4Purity</defName>
     <label>Purity bullet</label>
     <graphicData>
-      <texPath>Things/Tier4_Purity/Tier3_Purity_Bullet</texPath>
+      <texPath>Things/Tier3_Purity/Tier3_Purity_Bullet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
+      <damageAmountBase>16</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>		  
       <speed>80</speed>
     </projectile>
   </ThingDef>  
--->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Tier4Eidolon</defName>
+    <label>Eidolon bullet</label>
+    <graphicData>
+      <texPath>Things/Tier4_Eidolon/Eidolon_Bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>		  
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>    
+  
   <!--  Tier 4 Harmony Set >
 
   <ThingDef ParentName="Tier4_Helmet">
@@ -286,51 +300,57 @@
       </li>
     </verbs>
   </ThingDef>
-
-		< Tier 4 Supremacy Set >
+-->
+		<!-- Tier 4 Supremacy Set -->
 
   <ThingDef ParentName="Tier4_Helmet">
-	<defName>Tier3_Supremacy_Helmet</defName>
-	<label>Tier 4 Supremacy Helmet</label>
+	<defName>Tier4_Supremacy_Helmet</defName>
+	<label>Tier 4 Apostle Helmet</label>
 	<description>"Supremacy,focus on improving technology and improving themselves with cybernetics in order to be able to survive the harshest of environments on the new planet regardless of outside conditions."</description>	
 	<graphicData>
-      <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Helmet_UI</texPath>
+      <texPath>Things/Tier4_Supermacy/Tier4_Supremacy_Helmet_UI</texPath>
     </graphicData>
     <apparel>
-	  <wornGraphicPath>Things/Tier3_Supremacy/Tier3_Supremacy_Helmet</wornGraphicPath>
+	  <wornGraphicPath>Things/Tier4_Supermacy/Tier4_Supremacy_Helmet</wornGraphicPath>
     </apparel>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4Supremacy</researchPrerequisite>
+    </recipeMaker>	
   </ThingDef>  
 
   <ThingDef ParentName="Tier4_Armor">
-	  <defName>Tier3_Supremacy_Armor</defName>
-	  <label>Tier 4 Supremacy Armor</label>
+	  <defName>Tier4_Supremacy_Armor</defName>
+	  <label>Tier 4 Apostle Armor</label>
 	<description>"Supremacy are the most machine-like of the three Affinities. They develop sophisticated AI, make widespread use of autonomous and semi-autonomous robotic systems, and in general go the way of bionics, augmentation and merging human and machine."</description>		  
 	<graphicData>
-      <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Armor_UI</texPath>
+      <texPath>Things/Tier4_Supermacy/Tier4_Supremacy_Armor_UI</texPath>
     </graphicData>
     <apparel>
-		<wornGraphicPath>Things/Tier3_Supremacy/Tier3_Supremacy_Armor</wornGraphicPath>
+		<wornGraphicPath>Things/Tier4_Supermacy/Tier4_Supremacy_Armor</wornGraphicPath>
     </apparel>	
-    <equippedStatOffsets>
-      <MoveSpeed>0.45</MoveSpeed>
-    </equippedStatOffsets>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4Supremacy</researchPrerequisite>
+    </recipeMaker>
   </ThingDef> 
 
-  <ThingDef ParentName="Tier4_Armor">
-	  <defName>Tier3_Supremacy_Gun</defName>
-	  <label>Tier 4 Supremacy Weapon</label>
+  <ThingDef ParentName="Tier4_Weapon">
+	  <defName>Tier4_Supremacy_Gun</defName>
+	  <label>Tier 4 Apostle Weapon</label>
 	<description>"Supremacy weapons appear fire- and explosive-based, with yellow and orange colors which give the impression of superheated blast shells."</description>		  	  
 	<graphicData>
-      <texPath>Things/Tier3_Supremacy/Supremacy_weapon</texPath>
+      <texPath>Things/Tier4_Supermacy/Tier4_Supremacy_Weapon</texPath>
 	  <drawSize>1.3</drawSize>   
     </graphicData>	
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4Supremacy</researchPrerequisite>
+    </recipeMaker>	
     <statBases>
       <WorkToMake>45000</WorkToMake>	
       <Mass>8</Mass>
       <AccuracyTouch>0.38</AccuracyTouch>
       <AccuracyShort>0.67</AccuracyShort>
       <AccuracyMedium>0.92</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyLong>0.82</AccuracyLong>
       <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
     </statBases>	
     <verbs>
@@ -339,7 +359,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Supremacy</defaultProjectile>
         <warmupTime>1.7</warmupTime>
-        <range>29.9</range>
+        <range>35.5</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Tier3_Supremacy_Rifle_Sound</soundCast>
@@ -348,12 +368,12 @@
       </li>
     </verbs>	
   </ThingDef>
--->
+
   <!-- Tier 4 Purity Set -->
 
   <ThingDef ParentName="Tier4_Helmet">
     <defName>Tier4_Purity_Helmet</defName>
-    <label>Tier 4 Purity Helmet</label>
+    <label>Tier 4 Centurion Helmet</label>
     <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Tier4_Purity_Hetmet_UI</texPath>
@@ -368,7 +388,7 @@
 
   <ThingDef ParentName="Tier4_Armor">
     <defName>Tier4_Purity_Armor</defName>
-    <label>Tier 4 Purity Armor</label>
+    <label>Tier 4 Centurion Armor</label>
     <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Tier4_Purity_Armor_UI</texPath>
@@ -383,12 +403,83 @@
 
   <ThingDef ParentName="Tier4_Weapon">
     <defName>Tier4_Purity_Gun</defName>
-    <label>Tier 4 Purity Weapon</label>
+    <label>Tier 4 Centurion Power Rifle</label>
     <description>"Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Tier4_Purity_Weapon</texPath>
       <drawSize>1.0</drawSize>
     </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4Purity</researchPrerequisite>
+    </recipeMaker>	
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>9</Mass>
+      <AccuracyTouch>0.99</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Tier4Purity</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Tier3_Purity_Rifle_Sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- Tier 4 Eidolon Set -->
+
+  <ThingDef ParentName="Tier4_Helmet">
+    <defName>Tier4_Eidolon_Helmet</defName>
+    <label>Tier 4 Eidolon Helmet</label>
+    <description>"Puritanical Supremacists Their unit colors are usually pure white with bluish lighting effects."</description>
+    <graphicData>
+      <texPath>Things/Tier4_Eidolon/Tier4_Eidolon_Helmet_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Tier4_Eidolon/Tier4_Eidolon_Helmet</wornGraphicPath>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4HybridOne</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="Tier4_Armor">
+    <defName>Tier4_Eidolon_Armor</defName>
+    <label>Tier 4 Eidolon Armor</label>
+    <description>"Puritanical Supremacists are dedicated to the complete and total separation of man from machine and the perfection of both to the highest degree, constructing enormous robotic war machines with A.I.s of animal-level intelligence piloted by men clad in advanced (but not powered) armor." That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
+    <graphicData>
+      <texPath>Things/Tier4_Eidolon/Tier4_Eidolon_Armor_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Tier4_Eidolon/Tier4_Eidolon_Armor</wornGraphicPath>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4HybridOne</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="Tier4_Weapon">
+    <defName>Tier4_Eidolon_Gun</defName>
+    <label>Tier 4 Eidolon Power Rifle</label>
+    <description>"Advanced energy weapons."</description>
+    <graphicData>
+      <texPath>Things/Tier4_Eidolon/Tier4_Eidolon_Weapon</texPath>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4HybridOne</researchPrerequisite>
+    </recipeMaker>	
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>9</Mass>
@@ -402,23 +493,24 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_Purity</defaultProjectile>
+        <defaultProjectile>Bullet_Tier4Eidolon</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>35.5</range>
-        <burstShotCount>3</burstShotCount>
+        <range>25</range>
+        <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>Tier4_Purity_Rifle_Sound</soundCast>
+        <soundCast>Tier3_Purity_Rifle_Sound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
   </ThingDef>
 
-  <!-- Tier 4 Purity Helmet Color -->
+
+  <!-- === Tier 4 Purity Helmet Color === -->
 
   <ThingDef ParentName="Tier4_Helmet">
     <defName>Tier4_Blue_Purity_Helmet</defName>
-    <label>Tier 4 Purity Helmet(Blue)</label>
+    <label>Tier 4 Centurion Helmet(Blue)</label>
     <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Blue_UI</texPath>
@@ -433,7 +525,7 @@
 
   <ThingDef ParentName="Tier4_Helmet">
     <defName>Tier4_Green_Purity_Helmet</defName>
-    <label>Tier 4 Purity Helmet(Green)</label>
+    <label>Tier 4 Centurion Helmet(Green)</label>
     <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Green_UI</texPath>
@@ -448,7 +540,7 @@
 
   <ThingDef ParentName="Tier4_Helmet">
     <defName>Tier4_Orange_Purity_Helmet</defName>
-    <label>Tier 4 Purity Helmet(Orange)</label>
+    <label>Tier 4 Centurion Helmet(Orange)</label>
     <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Orange_UI</texPath>
@@ -463,7 +555,7 @@
 
   <ThingDef ParentName="Tier4_Helmet">
     <defName>Tier4_Purple_Purity_Helmet</defName>
-    <label>Tier 4 Purity Helmet(Purple)</label>
+    <label>Tier 4 Centurion Helmet(Purple)</label>
     <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Purple_UI</texPath>
@@ -478,7 +570,7 @@
 
   <ThingDef ParentName="Tier4_Helmet">
     <defName>Tier4_Yellow_Purity_Helmet</defName>
-    <label>Tier 4 Purity Helmet(Yellow)</label>
+    <label>Tier 4 Centurion Helmet(Yellow)</label>
     <description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Hetmet_Yellow_UI</texPath>
@@ -495,7 +587,7 @@
 
   <ThingDef ParentName="Tier4_Armor">
     <defName>Tier4_Blue_Purity_Armor</defName>
-    <label>Tier 4 Purity Armor(Blue)</label>
+    <label>Tier 4 Centurion Armor(Blue)</label>
     <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Blue_UI</texPath>
@@ -511,7 +603,7 @@
 
   <ThingDef ParentName="Tier4_Armor">
     <defName>Tier4_Green_Purity_Armor</defName>
-    <label>Tier 4 Purity Armor(Green)</label>
+    <label>Tier 4 Centurion Armor(Green)</label>
     <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Green_UI</texPath>
@@ -526,7 +618,7 @@
 
   <ThingDef ParentName="Tier4_Armor">
     <defName>Tier4_Orange_Purity_Armor</defName>
-    <label>Tier 4 Purity Armor(Orange)</label>
+    <label>Tier 4 Centurion Armor(Orange)</label>
     <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Orange_UI</texPath>
@@ -541,7 +633,7 @@
 
   <ThingDef ParentName="Tier4_Armor">
     <defName>Tier4_Purple_Purity_Armor</defName>
-    <label>Tier 4 Purity Armor(Purple)</label>
+    <label>Tier 4 Centurion Armor(Purple)</label>
     <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Purple_UI</texPath>
@@ -556,7 +648,7 @@
 
   <ThingDef ParentName="Tier4_Armor">
     <defName>Tier4_Yellow_Purity_Armor</defName>
-    <label>Tier 4 Purity Armor(Yellow)</label>
+    <label>Tier 4 Centurion Armor(Yellow)</label>
     <description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
     <graphicData>
       <texPath>Things/Tier4_Purity/Color/Tier4_Purity_Armor_Yellow_UI</texPath>

@@ -15,7 +15,7 @@
       <WorkToMake>4500</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>1.5</Mass>
-      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.88</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
       <ArmorRating_Heat>0.75</ArmorRating_Heat>
       <Insulation_Cold>10</Insulation_Cold>
@@ -227,7 +227,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_HeavySMG</defaultProjectile>
+        <defaultProjectile>Bullet_LMG</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>20.5</range>
         <burstShotCount>4</burstShotCount>
@@ -241,7 +241,7 @@
 
 	<!-- Color Armor -->
 
-  <ThingDef ParentName="Tier2_Helmet">
+  <ThingDef ParentName="Tier2_Armor">
 	<defName>Tier2_Blue_Soldier_Armor</defName>
 	<label>Tier 2 Soldier Armor(Blue)</label>
 	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
@@ -256,7 +256,7 @@
     </recipeMaker>		
   </ThingDef>  
 
-  <ThingDef ParentName="Tier2_Helmet">
+  <ThingDef ParentName="Tier2_Armor">
 	<defName>Tier2_Green_Soldier_Armor</defName>
 	<label>Tier 2 Soldier Armor(Green)</label>
 	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
@@ -271,7 +271,7 @@
     </recipeMaker>		
   </ThingDef>  
 
-  <ThingDef ParentName="Tier2_Helmet">
+  <ThingDef ParentName="Tier2_Armor">
 	<defName>Tier2_Orange_Soldier_Armor</defName>
 	<label>Tier 2 Soldier Armor(Orange)</label>
 	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
@@ -286,7 +286,7 @@
     </recipeMaker>		
   </ThingDef>  
 
-  <ThingDef ParentName="Tier2_Helmet">
+  <ThingDef ParentName="Tier2_Armor">
 	<defName>Tier2_Purple_Soldier_Armor</defName>
 	<label>Tier 2 Soldier Armor(Purple)</label>
 	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
@@ -301,7 +301,7 @@
     </recipeMaker>		
   </ThingDef>  
 
-  <ThingDef ParentName="Tier2_Helmet">
+  <ThingDef ParentName="Tier2_Armor">
 	<defName>Tier2_Red_Soldier_Armor</defName>
 	<label>Tier 2 Soldier Armor(Red)</label>
 	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
@@ -316,7 +316,7 @@
     </recipeMaker>		
   </ThingDef>  
 
-  <ThingDef ParentName="Tier2_Helmet">
+  <ThingDef ParentName="Tier2_Armor">
 	<defName>Tier2_Yellow_Soldier_Armor</defName>
 	<label>Tier 2 Soldier Armor(Yellow)</label>
 	<description>"The Soldier affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
