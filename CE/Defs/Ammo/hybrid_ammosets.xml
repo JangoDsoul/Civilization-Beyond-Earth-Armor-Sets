@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--===== Tier4_Purity+Supremacy_Gun =====-->
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_6x24mmPuritySupremacyCharged</defName>
+        <label>6x24mm Purity/Supremacy Charged</label>
+        <ammoTypes>
+            <Ammo_6x24mmPurityCharged>Bullet_6x24mmPurityCharged</Ammo_6x24mmPurityCharged>
+            <Ammo_6x24mmSupremacyCharged>Bullet_6x24mmSupremacyCharged</Ammo_6x24mmSupremacyCharged>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+
+    <!--===== Tier4_Purity+Harmony_Gun =====-->
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_6x24mmPurityHarmonyCharged</defName>
+        <label>6x24mm Purity/Harmony Charged</label>
+        <ammoTypes>
+            <Ammo_6x24mmPurityCharged>Bullet_6x24mmPurityCharged</Ammo_6x24mmPurityCharged>
+            <Ammo_6x24mmHarmonyCharged>Bullet_6x24mmHarmonyCharged</Ammo_6x24mmHarmonyCharged>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+
+    <!--===== Tier4_Harmony+Supremacy_Gun =====-->
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_6x24mmHarmonySupremacyCharged</defName>
+        <label>6x24mm Harmony/Supremacy Charged</label>
+        <ammoTypes>
+            <Ammo_6x24mmHarmonyCharged>Bullet_6x24mmHarmonyCharged</Ammo_6x24mmHarmonyCharged>
+            <Ammo_6x24mmSupremacyCharged>Bullet_6x24mmSupremacyCharged</Ammo_6x24mmSupremacyCharged>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+</Defs>
