@@ -46,9 +46,54 @@
 					</value>
 				</li>
 
-				<!--===== Tier4_Harmony_Gun =====-->				
+				<!--===== Tier4_Harmony_Gun =====-->
 
 				<!--===== Tier4_Supremacy_Gun =====-->
+				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+					<defName>Tier4_Supremacy_Gun</defName>
+					<statBases>
+						<WorkToMake>60000</WorkToMake>
+						<Mass>9.0</Mass>
+						<Bulk>16.46</Bulk>
+						<SwayFactor>1.26</SwayFactor>
+						<ShotSpread>0.05</ShotSpread>
+						<SightsEfficiency>1.1</SightsEfficiency>
+						<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+					</statBases>
+					<costList>
+						<Steel>70</Steel>
+						<Plasteel>35</Plasteel>
+						<Chemfuel>15</Chemfuel>
+						<ComponentIndustrial>11</ComponentIndustrial>
+					</costList>
+					<Properties>
+						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+						<hasStandardCommand>True</hasStandardCommand>
+						<defaultProjectile>Bullet_8x35mmSupremacyCharged</defaultProjectile>
+						<burstShotCount>6</burstShotCount>
+						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+						<warmupTime>1.2</warmupTime>
+						<range>62</range>
+						<soundCast>Tier3_Supremacy_Rifle_Sound</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>9</muzzleFlashScale>
+						<recoilAmount>1.16</recoilAmount>
+					</Properties>
+					<AmmoUser>
+						<magazineSize>30</magazineSize>
+						<reloadTime>4</reloadTime>
+						<ammoSet>AmmoSet_8x35mmSupremacyCharged</ammoSet>
+					</AmmoUser>
+					<FireModes>
+						<aiUseBurstMode>TRUE</aiUseBurstMode>
+						<aiAimMode>AimedShot</aiAimMode>
+						<aimedBurstShotCount>3</aimedBurstShotCount>
+					</FireModes>
+					<weaponTags>
+						<li>SpacerGun</li>
+						<li>CE_AI_Rifle</li>
+					</weaponTags>
+				</li>
 
 				<!--===== Tier4_Purity_Gun =====-->
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -96,6 +141,56 @@
 						<li>CE_AI_Rifle</li>
 					</weaponTags>
 				</li>
+
+				<!--===== Tier4_Purity+Supremacy_Gun =====-->
+				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+					<defName>Tier4_Eidolon_Gun</defName>
+					<statBases>
+						<WorkToMake>60000</WorkToMake>
+						<Mass>9.0</Mass>
+						<Bulk>16.46</Bulk>
+						<SwayFactor>1.26</SwayFactor>
+						<ShotSpread>0.05</ShotSpread>
+						<SightsEfficiency>1.1</SightsEfficiency>
+						<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+					</statBases>
+					<costList>
+						<Steel>70</Steel>
+						<Plasteel>35</Plasteel>
+						<Chemfuel>15</Chemfuel>
+						<ComponentIndustrial>11</ComponentIndustrial>
+					</costList>
+					<Properties>
+						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+						<hasStandardCommand>True</hasStandardCommand>
+						<defaultProjectile>Bullet_6x24mmPurityCharged</defaultProjectile>
+						<burstShotCount>6</burstShotCount>
+						<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+						<warmupTime>1.2</warmupTime>
+						<range>62</range>
+						<soundCast>Tier3_Purity_Rifle_Sound</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>9</muzzleFlashScale>
+						<recoilAmount>1.16</recoilAmount>
+					</Properties>
+					<AmmoUser>
+						<magazineSize>30</magazineSize>
+						<reloadTime>4</reloadTime>
+						<ammoSet>AmmoSet_6x24mmPuritySupremacyCharged</ammoSet>
+					</AmmoUser>
+					<FireModes>
+						<aiUseBurstMode>TRUE</aiUseBurstMode>
+						<aiAimMode>AimedShot</aiAimMode>
+						<aimedBurstShotCount>3</aimedBurstShotCount>
+					</FireModes>
+					<weaponTags>
+						<li>SpacerGun</li>
+						<li>CE_AI_Rifle</li>
+					</weaponTags>
+				</li>
+
+				<!--===== Tier4_Purity+Harmony_Gun =====-->
+				<!--===== Tier4_Harmony+Supremacy_Gun =====-->
 
 			</operations>
 		</match>
