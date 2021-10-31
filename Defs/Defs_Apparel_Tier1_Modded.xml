@@ -15,8 +15,8 @@
     <statBases>
 	   	<MaxHitPoints>210</MaxHitPoints>
 	  	<Mass>.90</Mass>
-	  	<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-	    <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+	  	<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+	    <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>CBEATier1Modded</researchPrerequisite>
@@ -37,8 +37,8 @@
     <statBases>
 		  <MaxHitPoints>380</MaxHitPoints>
 	  	<Mass>9.5</Mass>
-		  <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.99</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>CBEATier1Modded</researchPrerequisite>
@@ -83,7 +83,7 @@
       <hasStandardCommand>true</hasStandardCommand>
       <defaultProjectile>Bullet_HeavySMG</defaultProjectile>
       <warmupTime>0.9</warmupTime>
-      <range>22.9</range>
+      <range>25.0</range>
       <burstShotCount>4</burstShotCount>
       <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
       <soundCast>Tier1_silenced-pistol-sound-effect</soundCast>
