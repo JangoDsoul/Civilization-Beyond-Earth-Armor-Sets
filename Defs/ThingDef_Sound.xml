@@ -151,5 +151,31 @@
     </subSounds>
   </SoundDef>
 
+  <SoundDef>
+    <defName>Tier1_silenced-pistol-sound-effect</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>silenced-pistol-sound-effect</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+silenced-pistol-sound-effect
 
 </Defs>

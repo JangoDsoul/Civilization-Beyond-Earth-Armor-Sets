@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<!-- Modded Helmet -->
+
+  <ThingDef ParentName="Tier1_Helmet">
+   	<defName>Tier1_Modded_Helmet_Soldier</defName>
+  	<label>Tier 1 Soldier Helmet(Mk2)</label>
+  	<graphicData>
+      <texPath>Things/Tier1_Modded/Helmet_Modded_Soldier_UI</texPath>
+    </graphicData>
+    <apparel>
+	    <wornGraphicPath>Things/Tier1_Modded/Helmet_Modded_Soldier</wornGraphicPath>
+    </apparel>
+    <statBases>
+	   	<MaxHitPoints>210</MaxHitPoints>
+	  	<Mass>.90</Mass>
+	  	<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+	    <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Modded</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+		<!-- Modded Armor -->
+
+  <ThingDef ParentName="Tier1_Armor">
+	  <defName>Tier1_Modded_Armor_Soldier</defName>
+	  <label>Tier 1 Soldier Suit(Mk2)</label>
+	  <graphicData>
+      <texPath>Things/Tier1_Modded/Armor_Modded_Soldier_UI</texPath>
+    </graphicData>
+    <apparel>
+		<wornGraphicPath>Things/Tier1_Modded/Armor_Modded_Soldier</wornGraphicPath>
+    </apparel>
+    <statBases>
+		  <MaxHitPoints>380</MaxHitPoints>
+	  	<Mass>9.5</Mass>
+		  <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier1Modded</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Tier 1 Gun Modded -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+  <defName>Tier1_Carbine_Soldier_Modded</defName>
+  <label>Tier 1 Soldier Carbine(Mk2)</label>
+  <description>"A Weapon From the old World".</description>
+  <graphicData>
+    <texPath>Things/Tier1_Modded/Carbine_Modded_Soldier</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>1.4</drawSize>
+  </graphicData>
+  <soundInteract>Interact_Rifle</soundInteract>
+  <recipeMaker>
+    <researchPrerequisite>CBEATier1Modded</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+  <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+  <statBases>
+    <WorkToMake>40000</WorkToMake>
+    <Mass>3.5</Mass>
+    <AccuracyTouch>0.92</AccuracyTouch>
+    <AccuracyShort>0.71</AccuracyShort>
+    <AccuracyMedium>0.42</AccuracyMedium>
+    <AccuracyLong>0.30</AccuracyLong>
+    <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+  </statBases>
+  <costList>
+    <Steel>80</Steel>
+    <ComponentIndustrial>4</ComponentIndustrial>
+  </costList>
+  <verbs>
+    <li>
+      <verbClass>Verb_Shoot</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>Bullet_HeavySMG</defaultProjectile>
+      <warmupTime>0.9</warmupTime>
+      <range>22.9</range>
+      <burstShotCount>4</burstShotCount>
+      <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+      <soundCast>Tier1_silenced-pistol-sound-effect</soundCast>
+      <soundCastTail>GunTail_Medium</soundCastTail>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </li>
+  </verbs>
+  <weaponTags>
+    <li>Tier1Weapon</li>
+  </weaponTags>
+  <tools>
+    <li>
+      <label>grip</label>
+      <capacities>
+        <li>Blunt</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>barrel</label>
+      <capacities>
+        <li>Blunt</li>
+        <li>Poke</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+  </tools>
+  <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"></li>
+    </comps>
+  </ThingDef>
+
+</Defs>

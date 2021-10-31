@@ -25,12 +25,26 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
+    <defName>CBEATier1Modded</defName>
+    <label>Tier 1 Soldier (Modded)</label>
+    <description>Baic Armor Set with more Modded add-on</description>
+    <baseCost>500</baseCost>
+    <tab>CBEAStab</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.30</researchViewY>
+    <prerequisites>
+      <li>CBEAStart</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>CBEATier1Color</defName>
     <label>Tier 1 Soldier (Color)</label>
     <description>Baic Armor Set with more Colors</description>
     <baseCost>500</baseCost>
     <tab>CBEAStab</tab>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Industrial</techLevel>
     <researchViewX>1.00</researchViewX>
     <researchViewY>0.95</researchViewY>
     <prerequisites>
@@ -44,7 +58,7 @@
     <description>Baic Armor Set with more Camos</description>
     <baseCost>500</baseCost>
     <tab>CBEAStab</tab>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Industrial</techLevel>
     <researchViewX>1.00</researchViewX>
     <researchViewY>1.50</researchViewY>
     <prerequisites>
