@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-		<!-- Camo Helmet -->
+<!--
+		< Camo Helmet >
 
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Desert_Helmet_Soldier</defName>
@@ -11,12 +11,12 @@
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Helmet_Soldier_Desert</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
-  
+
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Navy_Helmet_Soldier</defName>
 	<label>Tier 1 Soldier Helmet(Navy)</label>
@@ -25,11 +25,11 @@
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Helmet_Soldier_Navy</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef>  
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Stealth_Helmet_Soldier</defName>
@@ -39,12 +39,12 @@
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Helmet_Soldier_Stealth</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef>  
-  
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Winter_Helmet_Soldier</defName>
 	<label>Tier 1 Soldier Helmet(Winter)</label>
@@ -53,11 +53,11 @@
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Helmet_Soldier_Winter</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef>    
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
   <ThingDef ParentName="Tier1_Helmet">
 	<defName>Tier1_Woodland_Helmet_Soldier</defName>
@@ -67,14 +67,14 @@
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Helmet_Soldier_Woodland</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef>    
- 
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
-		<!-- Camo Armor -->
+
+		< Camo Armor >
 
   <ThingDef ParentName="Tier1_Armor">
 	  <defName>Tier1_Desert_Armor_Soldier</defName>
@@ -84,12 +84,12 @@
     </graphicData>
     <apparel>
 		<wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Armor_Soldier_Desert</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
- 
+
   <ThingDef ParentName="Tier1_Armor">
 	  <defName>Tier1_Navy_Armor_Soldier</defName>
 	  <label>Tier 1 Soldier Suit(Navy)</label>
@@ -98,11 +98,11 @@
     </graphicData>
     <apparel>
 		<wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Armor_Soldier_Navy</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef> 
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
 
   <ThingDef ParentName="Tier1_Armor">
@@ -113,12 +113,12 @@
     </graphicData>
     <apparel>
 		<wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Armor_Soldier_Stealth</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
-  
+
 
   <ThingDef ParentName="Tier1_Armor">
 	  <defName>Tier1_Winter_Armor_Soldier</defName>
@@ -128,10 +128,10 @@
     </graphicData>
     <apparel>
 		<wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Armor_Soldier_Winter</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
 
@@ -143,10 +143,10 @@
     </graphicData>
     <apparel>
 		<wornGraphicPath>Things/Tier1_Items/Tier1_Camo/Tier1_Armor_Soldier_Woodland</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier1Camo</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
-  
+-->
 </Defs>

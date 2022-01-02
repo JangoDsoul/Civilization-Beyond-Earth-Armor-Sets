@@ -52,7 +52,7 @@
     </prerequisites>
   </ResearchProjectDef>
 
-  <ResearchProjectDef>
+  <!--ResearchProjectDef>
     <defName>CBEATier1Camo</defName>
     <label>Tier 1 Soldier (Camo)</label>
     <description>Baic Armor Set with more Camos</description>
@@ -64,7 +64,7 @@
     <prerequisites>
       <li>CBEAStart</li>
     </prerequisites>
-  </ResearchProjectDef>
+  </ResearchProjectDef-->
 
   <!-- \\\\ Tier 2 \\\\ -->
   <ResearchProjectDef>
@@ -215,6 +215,8 @@
     </prerequisites>
   </ResearchProjectDef>
 
+    <!-- \\\ Tier 4 Hybrid \\\ -->
+
   <ResearchProjectDef>
     <defName>CBEATier4HybridOne</defName>
     <label>Tier 4 Puritanical Supremacists</label>
@@ -232,7 +234,7 @@
 
   <ResearchProjectDef>
     <defName>CBEATier4HybridTwo</defName>
-    <label>Tier 4 Harmonal Purists</label>
+    <label>Tier 4 Harmonal Puritanical</label>
     <description>High-tier Hybrid Armor</description>
     <baseCost>5500</baseCost>
     <tab>CBEAStab</tab>
@@ -256,7 +258,7 @@
     <researchViewY>2.80</researchViewY>
     <prerequisites>
       <li>CBEATier3Harmony</li>
-	  <li>CBEATier3Supremacy</li>
+    <li>CBEATier3Supremacy</li>
     </prerequisites>
   </ResearchProjectDef>
 

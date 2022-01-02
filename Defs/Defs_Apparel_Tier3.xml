@@ -7,7 +7,7 @@
 		<techLevel>Spacer</techLevel>
 		<tradeability>Sellable</tradeability>
 		<generateCommonality>0</generateCommonality>
-		<generateAllowChance>0</generateAllowChance>		
+		<generateAllowChance>0</generateAllowChance>
 	<graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -37,7 +37,7 @@
       </skillRequirements>
 	  <recipeUsers Inherit="False">
 		<li>FabricationBench</li>
-      </recipeUsers>	  
+      </recipeUsers>
     </recipeMaker>
     <apparel>
 		<bodyPartGroups>
@@ -81,14 +81,14 @@
       <EquipDelay>14</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-		<ToxicSensitivity>-0.30</ToxicSensitivity>	
+		<ToxicSensitivity>-0.30</ToxicSensitivity>
 		<PainShockThreshold>0.15</PainShockThreshold>
-		<SocialImpact>0.05</SocialImpact>		
+		<SocialImpact>0.05</SocialImpact>
 	</equippedStatOffsets>
     <costList>
 		<Steel>40</Steel>
 		<Cloth>30</Cloth>
-		<Plasteel>20</Plasteel>		
+		<Plasteel>20</Plasteel>
 		<ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
@@ -97,7 +97,7 @@
       </skillRequirements>
 	  <recipeUsers Inherit="False">
 		<li>FabricationBench</li>
-      </recipeUsers>	  
+      </recipeUsers>
     </recipeMaker>
     <apparel>
 		<bodyPartGroups>
@@ -128,6 +128,8 @@
 		<!-- Tier 3 Gun Base -->
 
  <ThingDef Name="Tier3_Weapon" ParentName="BaseHumanMakeableGun" Abstract="True">
+   <generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -138,7 +140,7 @@
       </skillRequirements>
 	  <recipeUsers Inherit="False">
 		<li>FabricationBench</li>
-      </recipeUsers>	  
+      </recipeUsers>
     </recipeMaker>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <costList>
@@ -165,16 +167,16 @@
         </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
-      </li> 
+      </li>
     </tools>
 	<comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
-    </comps>	
+    </comps>
   </ThingDef>
-  
-  		<!-- Bullet Base -->	
-  
+
+  		<!-- Bullet Base -->
+
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Harmony</defName>
     <label>Harmony Ball of energy</label>
@@ -185,7 +187,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>9</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>	  
+      <stoppingPower>1.5</stoppingPower>
       <speed>45</speed>
     </projectile>
   </ThingDef>
@@ -200,11 +202,11 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>13</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>		  
+      <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
     </projectile>
   </ThingDef>
-  
+
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Purity</defName>
     <label>Purity bullet</label>
@@ -215,59 +217,59 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>10</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>		  
+      <stoppingPower>1.5</stoppingPower>
       <speed>80</speed>
     </projectile>
-  </ThingDef>  
+  </ThingDef>
 
 		<!--  Tier 3 Harmony Set -->
 
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Harmony_Helmet</defName>
 	<label>Tier 3 Brawler Helmet</label>
-	<description>"Harmony are the ones that get the most 'in tune' with local wildlife. They use biology, genetics and nanotechnology exclusively to the end of altering the human body's biochemistry and physiology in order to adapt it for life on this alien planet."</description>	
+	<description>"Harmony are the ones that get the most 'in tune' with local wildlife. They use biology, genetics and nanotechnology exclusively to the end of altering the human body's biochemistry and physiology in order to adapt it for life on this alien planet."</description>
 	<graphicData>
       <texPath>Things/Tier3_Harmony/Tier3_Harmony_Helmet_UI</texPath>
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Harmony/Tier3_Harmony_Helmet</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <equippedStatOffsets>
       <MedicalTendSpeed>0.30</MedicalTendSpeed>
 	   <MedicalTendQuality>0.20</MedicalTendQuality>
-    </equippedStatOffsets>		
+    </equippedStatOffsets>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Harmony_Armor</defName>
 	  <label>Tier 3 Brawler Armor</label>
-	  <description>"A style which uses many curves, various shades of green, and art which alludes to biological organs and natural features."</description>		  
+	  <description>"A style which uses many curves, various shades of green, and art which alludes to biological organs and natural features."</description>
 	<graphicData>
       <texPath>Things/Tier3_Harmony/Tier3_Harmony_Armor_UI</texPath>
     </graphicData>
     <apparel>
 		<wornGraphicPath>Things/Tier3_Harmony/Tier3_Harmony_Armor</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <equippedStatOffsets>
       <MedicalTendSpeed>0.20</MedicalTendSpeed>
 	   <MedicalTendQuality>0.30</MedicalTendQuality>
-    </equippedStatOffsets>		
+    </equippedStatOffsets>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="Tier3_Weapon">
 	  <defName>Tier3_Harmony_Gun</defName>
 	  <label>Tier 3 Brawler Weapon</label>
-	  <description>"Harmony appear to make heavy use of poison-like substances in their munitions, likely militarized variants of the chemically degrading biological clouds of fungal spores dubbed Miasma by the colonists, only of course on a far more concentrated and magnified scale."</description>		  
+	  <description>"Harmony appear to make heavy use of poison-like substances in their munitions, likely militarized variants of the chemically degrading biological clouds of fungal spores dubbed Miasma by the colonists, only of course on a far more concentrated and magnified scale."</description>
 	<graphicData>
       <texPath>Things/Tier3_Harmony/Harmony_weapon</texPath>
-	  <drawSize>1.3</drawSize>   	  
-    </graphicData>	
+	  <drawSize>1.3</drawSize>
+    </graphicData>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.6</Mass>
@@ -276,7 +278,7 @@
       <AccuracyMedium>0.81</AccuracyMedium>
       <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
-    </statBases>	
+    </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -292,8 +294,8 @@
       </li>
     </verbs>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier3Harmony</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
 		<!-- Tier 3 Supremacy Set -->
@@ -301,53 +303,53 @@
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Supremacy_Helmet</defName>
 	<label>Tier 3 Disciple Helmet</label>
-	<description>"Supremacy,focus on improving technology and improving themselves with cybernetics in order to be able to survive the harshest of environments on the new planet regardless of outside conditions."</description>	
+	<description>"Supremacy,focus on improving technology and improving themselves with cybernetics in order to be able to survive the harshest of environments on the new planet regardless of outside conditions."</description>
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Helmet_UI</texPath>
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Supremacy/Tier3_Supremacy_Helmet</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef>  
+      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Supremacy_Armor</defName>
 	  <label>Tier 3 Disciple Armor</label>
-	<description>"Supremacy are the most machine-like of the three Affinities. They develop sophisticated AI, make widespread use of autonomous and semi-autonomous robotic systems, and in general go the way of bionics, augmentation and merging human and machine."</description>		  
+	<description>"Supremacy are the most machine-like of the three Affinities. They develop sophisticated AI, make widespread use of autonomous and semi-autonomous robotic systems, and in general go the way of bionics, augmentation and merging human and machine."</description>
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Armor_UI</texPath>
     </graphicData>
     <apparel>
 		<wornGraphicPath>Things/Tier3_Supremacy/Tier3_Supremacy_Armor</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <equippedStatOffsets>
       <MoveSpeed>0.45</MoveSpeed>
-    </equippedStatOffsets>	
+    </equippedStatOffsets>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef> 
+      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
   <ThingDef ParentName="Tier3_Weapon">
 	  <defName>Tier3_Supremacy_Gun</defName>
 	  <label>Tier 3 Disciple Weapon</label>
-	<description>"Supremacy weapons appear fire- and explosive-based, with yellow and orange colors which give the impression of superheated blast shells."</description>		  	  
+	<description>"Supremacy weapons appear fire- and explosive-based, with yellow and orange colors which give the impression of superheated blast shells."</description>
 	<graphicData>
       <texPath>Things/Tier3_Supremacy/Supremacy_weapon</texPath>
-	  <drawSize>1.3</drawSize>   
-    </graphicData>	
+	  <drawSize>1.3</drawSize>
+    </graphicData>
     <statBases>
-      <WorkToMake>45000</WorkToMake>	
+      <WorkToMake>45000</WorkToMake>
       <Mass>8</Mass>
       <AccuracyTouch>0.38</AccuracyTouch>
       <AccuracyShort>0.67</AccuracyShort>
       <AccuracyMedium>0.92</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
       <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
-    </statBases>	
+    </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -361,10 +363,10 @@
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-    </verbs>	
+    </verbs>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier3Supremacy</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
 		<!-- Tier 3 Purity Set -->
@@ -372,50 +374,50 @@
   <ThingDef ParentName="Tier3_Helmet">
 	<defName>Tier3_Purity_Helmet</defName>
 	<label>Tier 3 Sentinel Helmet(Red)</label>
-	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>	
+	<description>"The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife."</description>
 	<graphicData>
       <texPath>Things/Tier3_Purity/Tier3_Purity_Hetmet_UI</texPath>
     </graphicData>
     <apparel>
 	  <wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Hetmet</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef>  
+      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
   <ThingDef ParentName="Tier3_Armor">
 	  <defName>Tier3_Purity_Armor</defName>
 	  <label>Tier 3 Sentinel Armor(Red)</label>
-	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>		  
+	<description>"Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers."</description>
 	<graphicData>
       <texPath>Things/Tier3_Purity/Tier3_Purity_Armor_UI</texPath>
     </graphicData>
     <apparel>
 		<wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Armor</wornGraphicPath>
-    </apparel>	
+    </apparel>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>	  
-    </recipeMaker>		
-  </ThingDef> 
+      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
   <ThingDef ParentName="Tier3_Weapon">
 	  <defName>Tier3_Purity_Gun</defName>
 	  <label>Tier 3 Sentinel Power Rifle</label>
-	<description>"Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles."</description>		  	  
+	<description>"Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles."</description>
 	<graphicData>
       <texPath>Things/Tier3_Purity/Tier3_Purity_Weapon</texPath>
-	  <drawSize>1.0</drawSize>   
-    </graphicData>	
+	  <drawSize>1.0</drawSize>
+    </graphicData>
     <statBases>
-      <WorkToMake>45000</WorkToMake>	
+      <WorkToMake>45000</WorkToMake>
       <Mass>8</Mass>
       <AccuracyTouch>0.87</AccuracyTouch>
       <AccuracyShort>0.95</AccuracyShort>
       <AccuracyMedium>0.78</AccuracyMedium>
       <AccuracyLong>0.50</AccuracyLong>
       <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
-    </statBases>	
+    </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -429,10 +431,10 @@
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-    </verbs>	
+    </verbs>
     <recipeMaker>
-      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>	  
-    </recipeMaker>		
+      <researchPrerequisite>CBEATier3Purity</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
 </Defs>

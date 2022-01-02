@@ -51,6 +51,8 @@
   <defName>Tier1_Carbine_Soldier_Modded</defName>
   <label>Tier 1 Soldier Carbine(Mk2)</label>
   <description>"A Weapon From the old World".</description>
+  <generateCommonality>0</generateCommonality>
+  <generateAllowChance>0</generateAllowChance>
   <graphicData>
     <texPath>Things/Tier1_Modded/Carbine_Modded_Soldier</texPath>
     <graphicClass>Graphic_Single</graphicClass>
