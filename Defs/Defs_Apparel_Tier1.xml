@@ -434,6 +434,9 @@
       <layers>
         <li>OnSkin</li>
       </layers>
+      <tags>
+  			<li>EVA</li>
+  		</tags>
     </apparel>
     <equippedStatOffsets>
       <MoveSpeed>+0.10</MoveSpeed>
@@ -468,6 +471,9 @@
       <layers>
         <li>OnSkin</li>
       </layers>
+      <tags>
+  			<li>EVA</li>
+  		</tags>
     </apparel>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>

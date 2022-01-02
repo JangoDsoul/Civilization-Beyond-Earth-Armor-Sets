@@ -4,7 +4,7 @@
 	<author>JangoD'soul,ParaNautic(chrissmooth25)</author>	<!-- \\\ Change to your username for Steam \\\ -->
 	<supportedVersions>
 		<li>1.2</li>		<!-- \\\ your can add more line when the new version for the game\\\ -->
-		<li>1.3</li>		
+		<li>1.3</li>
 	</supportedVersions>
 	<packageId>JangoDsoul.TierArmor.Civil</packageId>	<!-- \\\ Can change to anything \\\ -->
 	<description>
@@ -15,16 +15,18 @@ This mod adds Civilization Beyond Earth armor From the Soldier Tree
  - Tier 1 Soldier Suit Set
  - Tier 2 Soldier Armor Set
  - Tier 3 Harmony Armor Set
- - Tier 3 Supremacy Armor Set 
+ - Tier 3 Supremacy Armor Set
  - Tier 3 Purity Armor Set
  - Tier 4 Purity Armor Set
  - Tier 4 Supremacy Armor Set
  - Tier 4 Hybrid Armor Set (Eidolon)
+ - Tier 4 Hybrid Armor Set (Champion)
+ - Tier 4 Hybrid Armor Set (Hellion)
  - Helemt and Suit in 6 difference colors : Red,Blue,Green,Purple,Orange,Yellow.
- - Helemt and Suit in 5 difference Camos : Winter,Navy,Desert,Desert,Woodland,Stealth
+ - Helemt and Suit in 5 difference Camos : Winter,Navy,Desert,Desert,Woodland,Stealth !!!!REMOVE!!!!
  - Tier 2,3,4 Purity Helemt and Armor in 6 difference colors : Red,Blue,Green,Purple,Orange,Yellow.
- 
- 
+
+
 Commissioned by "JangoD'soul" for "ParaNautic(chrissmooth25)#7464" from "Rimworld Mod Market" Discord.
 
 [h1]Credits:[/h1]
@@ -32,7 +34,7 @@ Commissioned by "JangoD'soul" for "ParaNautic(chrissmooth25)#7464" from "Rimworl
 -JangoDsoul- Art and XML coder
 -Harkon- Combat Extended patch
 
-[url=https://discord.com/invite/7befJWr9xS][img]https://i.imgur.com/cfoFEMA.png[/img][/url]	   
+[url=https://discord.com/invite/7befJWr9xS][img]https://i.imgur.com/cfoFEMA.png[/img][/url]
 
     </description>
 	<loadAfter>
