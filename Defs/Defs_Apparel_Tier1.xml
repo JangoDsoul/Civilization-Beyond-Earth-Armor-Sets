@@ -151,7 +151,7 @@
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
       <WorkToMake>40000</WorkToMake>
-      <Mass>3.0</Mass>
+      <Mass>3</Mass>
       <AccuracyTouch>0.88</AccuracyTouch>
       <AccuracyShort>0.68</AccuracyShort>
       <AccuracyMedium>0.38</AccuracyMedium>

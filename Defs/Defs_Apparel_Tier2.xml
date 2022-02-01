@@ -218,12 +218,12 @@
     </graphicData>
     <statBases>
       <WorkToMake>45000</WorkToMake>
-      <Mass>8</Mass>
-      <AccuracyTouch>0.75</AccuracyTouch>
-      <AccuracyShort>0.86</AccuracyShort>
-      <AccuracyMedium>0.68</AccuracyMedium>
-      <AccuracyLong>0.50</AccuracyLong>
-      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.72</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.57</AccuracyLong>
+      <RangedWeapon_Cooldown>1.86</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
       <li>
@@ -231,8 +231,8 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_LMG</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>20.5</range>
-        <burstShotCount>4</burstShotCount>
+        <range>32.5</range>
+        <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <soundCast>Tier3_Purity_Rifle_Sound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
