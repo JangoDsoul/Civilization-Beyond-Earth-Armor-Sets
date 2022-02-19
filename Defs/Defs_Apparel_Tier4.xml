@@ -282,6 +282,9 @@
       <MedicalTendSpeed>0.30</MedicalTendSpeed>
 	   <MedicalTendQuality>0.20</MedicalTendQuality>
     </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4Harmony</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="Tier4_Armor">
@@ -298,6 +301,9 @@
       <MedicalTendSpeed>0.20</MedicalTendSpeed>
 	   <MedicalTendQuality>0.30</MedicalTendQuality>
     </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4Harmony</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="Tier4_Weapon">
@@ -308,6 +314,9 @@
       <texPath>Things/Tier4_Harmony/Marauder_weapon</texPath>
 	  <drawSize>1.3</drawSize>
     </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>CBEATier4Harmony</researchPrerequisite>
+    </recipeMaker>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>8</Mass>
