@@ -48,7 +48,7 @@
     </ThingDef>
 
     <!-- ================== Projectiles ================== -->
-    <ThingDef Class="CombatExtended.AmmoDef" Name="Base6x24mmSupremacyChargedBullet" ParentName="BaseBullet" Abstract="true">
+    <ThingDef Name="Base6x24mmSupremacyChargedBullet" ParentName="BaseBullet" Abstract="true">
         <graphicData>
             <texPath>Things/Projectile/Supremacy</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -59,7 +59,7 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base6x24mmSupremacyChargedBullet">
+    <ThingDef ParentName="Base6x24mmSupremacyChargedBullet">
         <defName>Bullet_6x24mmSupremacyCharged</defName>
         <label>6x24mm Supremacy Charged bullet</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">

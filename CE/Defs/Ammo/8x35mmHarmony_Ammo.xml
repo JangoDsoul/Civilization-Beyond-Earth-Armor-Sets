@@ -48,7 +48,7 @@
   </ThingDef>
 
   <!-- ================== Projectiles ================== -->
-  <ThingDef Class="CombatExtended.AmmoDef" Name="Base8x35mmHarmonyChargedBullet" ParentName="BaseBullet" Abstract="true">
+  <ThingDef Name="Base8x35mmHarmonyChargedBullet" ParentName="BaseBullet" Abstract="true">
     <graphicData>
       <texPath>Things/Projectile/Harmony</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -59,7 +59,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base8x35mmHarmonyChargedBullet">
+  <ThingDef ParentName="Base8x35mmHarmonyChargedBullet">
     <defName>Bullet_8x35mmHarmonyCharged</defName>
     <label>8x35mm Harmony Charged bullet</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
