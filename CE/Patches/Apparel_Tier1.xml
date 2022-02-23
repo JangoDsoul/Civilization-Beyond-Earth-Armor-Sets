@@ -55,8 +55,7 @@
 					<xpath>Defs/ThingDef[@Name="Tier1_Helmet"]/apparel/layers</xpath>
 					<value>
 						<li>OnHead</li>
-						<li>StrappedHead</li>
-						<li>MiddleHead</li>
+						<li>StrappedHead</li>						
 					</value>
 				</li>
 
