@@ -37,6 +37,13 @@
 					</value>
 				</li>
 
+				<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="Tier2_Helmet"]/statBases/Mass</xpath>
+                    <value>
+                        <Mass>3</Mass>
+                    </value>
+                </li>
+
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[@Name="Tier2_Helmet"]/equippedStatOffsets</xpath>
 					<value>
@@ -55,8 +62,7 @@
 					<xpath>Defs/ThingDef[@Name="Tier2_Helmet"]/apparel/layers</xpath>
 					<value>
 						<li>OnHead</li>
-						<li>StrappedHead</li>
-						<li>MiddleHead</li>
+						<li>StrappedHead</li>						
 					</value>
 				</li>
 
@@ -90,11 +96,19 @@
 					</value>
 				</li>
 
+				<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="Tier2_Armor"]/statBases/Mass</xpath>
+                    <value>
+                        <Mass>30</Mass>
+                    </value>
+                </li>
+
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[@Name="Tier2_Armor"]/equippedStatOffsets</xpath>
 					<value>
 						<Bulk>60</Bulk>
 						<CarryBulk>8</CarryBulk>
+						<CarryWeight>50</CarryWeight>
 					</value>
 				</li>
 
